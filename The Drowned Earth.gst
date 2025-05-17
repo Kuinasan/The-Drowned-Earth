@@ -18,73 +18,40 @@
     <categoryEntry name="Cavalry" id="026f-72e1-f1fc-a568" hidden="false"/>
     <categoryEntry name="Wayfarer" id="517d-7965-7e3a-9154" hidden="false">
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bf18-7fec-9e6a-128d" includeChildSelections="true"/>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="bf18-7fec-9e6a-128d" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="increment" value="1" field="bf18-7fec-9e6a-128d">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="atLeast" value="100" field="aebb-a9e8-4e59-11a0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="2586-51fe-bfe0-65cc" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="atLeast" value="100" field="aebb-a9e8-4e59-11a0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="13a6-711d-167b-0468" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="atLeast" value="100" field="aebb-a9e8-4e59-11a0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="4744-bb82-85e6-4157" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="atLeast" value="100" field="aebb-a9e8-4e59-11a0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c450-d16e-61e4-9069" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
         <modifier type="set" value="-1" field="bf18-7fec-9e6a-128d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="81af-9ff5-4232-aae3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="1" field="bf18-7fec-9e6a-128d">
           <conditionGroups>
-            <conditionGroup type="or">
+            <conditionGroup type="and">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2586-51fe-bfe0-65cc" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="13a6-711d-167b-0468" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4744-bb82-85e6-4157" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="c450-d16e-61e4-9069" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="5bc9-3b44-ee43-2652" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="81af-9ff5-4232-aae3" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="increment" value="1" field="bf18-7fec-9e6a-128d">
+        <modifier type="set" value="2" field="bf18-7fec-9e6a-128d">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="atLeast" value="125" field="aebb-a9e8-4e59-11a0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="2586-51fe-bfe0-65cc" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="e2d4-b187-6775-8563" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="81af-9ff5-4232-aae3" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="3" field="bf18-7fec-9e6a-128d">
+          <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="atLeast" value="125" field="aebb-a9e8-4e59-11a0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="13a6-711d-167b-0468" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="atLeast" value="125" field="aebb-a9e8-4e59-11a0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="4744-bb82-85e6-4157" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="atLeast" value="125" field="aebb-a9e8-4e59-11a0" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="c450-d16e-61e4-9069" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="11d3-01ae-a00f-7d20" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="81af-9ff5-4232-aae3" shared="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -134,9 +101,10 @@
         <constraint type="min" value="0" field="aebb-a9e8-4e59-11a0" scope="roster" shared="true" id="4ae8-d6c4-9b43-8bd2" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry name="Wayfarer/Corsair Leader" id="81af-9ff5-4232-aae3" hidden="true"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry name="Skirmish" id="5bc9-3b44-ee43-2652" hidden="false">
+    <forceEntry name="Skirmish 100" id="5bc9-3b44-ee43-2652" hidden="false">
       <costs>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="0"/>
       </costs>
@@ -144,16 +112,70 @@
         <categoryLink name="Leader" hidden="false" id="3596-0a61-8692-90fb" targetId="3f98-9ca0-5510-889b"/>
         <categoryLink name="Ajutant" hidden="false" id="5b5e-a167-ee21-5284" targetId="14f4-34d1-df54-e139"/>
         <categoryLink name="Charakter" hidden="false" id="e390-7479-40e5-888c" targetId="1b7e-397a-03ee-6576"/>
-        <categoryLink name="Troop" hidden="false" id="cca3-48f2-e331-c9f9" targetId="fd22-fda8-ae83-4bd0"/>
-        <categoryLink name="Wayfarer" hidden="false" id="c866-d33e-626f-67be" targetId="517d-7965-7e3a-9154"/>
-        <categoryLink name="Corsair" hidden="false" id="1747-79f4-404d-14c9" targetId="f00f-af05-eb26-2539"/>
-        <categoryLink name="Beasts" hidden="false" id="a951-69ba-7da6-f058" targetId="5719-a07d-261b-cd9a"/>
-        <categoryLink name="Wisperer" hidden="false" id="9547-e16c-9600-ab3c" targetId="d9be-741a-50bd-bd74" type="categoryEntry"/>
+        <categoryLink name="Wisperer" hidden="false" id="9547-e16c-9600-ab3c" targetId="d9be-741a-50bd-bd74"/>
+        <categoryLink name="Troop" hidden="false" id="9a80-dac2-f6e2-fcc1" targetId="fd22-fda8-ae83-4bd0"/>
+        <categoryLink name="Wayfarer" hidden="false" id="7673-f44e-beba-64c0" targetId="517d-7965-7e3a-9154"/>
+        <categoryLink name="Corsair" hidden="false" id="0c5a-7e8a-2ab0-1dbc" targetId="f00f-af05-eb26-2539"/>
+        <categoryLink name="Beasts" hidden="false" id="fb3b-b822-b818-02e4" targetId="5719-a07d-261b-cd9a"/>
       </categoryLinks>
+      <profiles>
+        <profile name="Skirmish 100" typeId="1270-4144-c976-8678" typeName="6.1 Game Sizes" hidden="false" id="3704-9925-3d96-4492">
+          <characteristics>
+            <characteristic name="Game Sizes" typeId="e6b6-4115-6853-3bdb">Small Game</characteristic>
+            <characteristic name="Amount of Wayfarer" typeId="d0a9-e331-9887-367f">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </forceEntry>
+    <forceEntry name="Skirmish 125" id="e2d4-b187-6775-8563" hidden="false">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Leader" hidden="false" id="d757-4c58-89e2-5ec8" targetId="3f98-9ca0-5510-889b"/>
+        <categoryLink name="Ajutant" hidden="false" id="619d-593e-a5b3-63f5" targetId="14f4-34d1-df54-e139"/>
+        <categoryLink name="Charakter" hidden="false" id="2d47-13ce-cf69-e85c" targetId="1b7e-397a-03ee-6576"/>
+        <categoryLink name="Wisperer" hidden="false" id="6ebe-a0d9-1a98-10fe" targetId="d9be-741a-50bd-bd74"/>
+        <categoryLink name="Troop" hidden="false" id="71f9-7630-d432-f92b" targetId="fd22-fda8-ae83-4bd0"/>
+        <categoryLink name="Wayfarer" hidden="false" id="de65-746e-efae-fb39" targetId="517d-7965-7e3a-9154"/>
+        <categoryLink name="Corsair" hidden="false" id="aa2c-10e0-1e16-0b2e" targetId="f00f-af05-eb26-2539"/>
+        <categoryLink name="Beasts" hidden="false" id="3864-c1cf-65f8-d7f9" targetId="5719-a07d-261b-cd9a"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Skirmish 125" typeId="1270-4144-c976-8678" typeName="6.1 Game Sizes" hidden="false" id="7000-7912-7c30-2042">
+          <characteristics>
+            <characteristic name="Game Sizes" typeId="e6b6-4115-6853-3bdb">Regular Game</characteristic>
+            <characteristic name="Amount of Wayfarer" typeId="d0a9-e331-9887-367f">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </forceEntry>
+    <forceEntry name="Skirmish 150" id="11d3-01ae-a00f-7d20" hidden="false">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Leader" hidden="false" id="9fd8-ad8b-807d-5902" targetId="3f98-9ca0-5510-889b"/>
+        <categoryLink name="Ajutant" hidden="false" id="7284-c527-d7a8-2698" targetId="14f4-34d1-df54-e139"/>
+        <categoryLink name="Charakter" hidden="false" id="611f-caab-58f9-8054" targetId="1b7e-397a-03ee-6576"/>
+        <categoryLink name="Wisperer" hidden="false" id="ce1f-5406-faef-1229" targetId="d9be-741a-50bd-bd74"/>
+        <categoryLink name="Troop" hidden="false" id="2237-771c-d2a8-3951" targetId="fd22-fda8-ae83-4bd0"/>
+        <categoryLink name="Wayfarer" hidden="false" id="9633-1102-a3dc-d2c1" targetId="517d-7965-7e3a-9154"/>
+        <categoryLink name="Corsair" hidden="false" id="e69f-38c1-f641-4266" targetId="f00f-af05-eb26-2539"/>
+        <categoryLink name="Beasts" hidden="false" id="3a28-e5c0-34e5-99b8" targetId="5719-a07d-261b-cd9a"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Skirmish 150" typeId="1270-4144-c976-8678" typeName="6.1 Game Sizes" hidden="false" id="ef31-6b70-b7f1-d7fb">
+          <characteristics>
+            <characteristic name="Game Sizes" typeId="e6b6-4115-6853-3bdb">Large Game</characteristic>
+            <characteristic name="Amount of Wayfarer" typeId="d0a9-e331-9887-367f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </forceEntry>
   </forceEntries>
   <costTypes>
-    <costType name="Punkte" id="aebb-a9e8-4e59-11a0" defaultCostLimit="-1"/>
+    <costType name="Points" id="aebb-a9e8-4e59-11a0" defaultCostLimit="-1"/>
   </costTypes>
   <profileTypes>
     <profileType name="1.2 Attributes" id="Attributes" hidden="false">
@@ -207,6 +229,17 @@
     <profileType name="5.2 Effect Card" id="5ef9-785f-2d2b-5de2" hidden="false">
       <characteristicTypes>
         <characteristicType name="Effect" id="40c6-c223-451a-7776"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="6.1 Game Sizes" id="1270-4144-c976-8678" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Game Sizes" id="e6b6-4115-6853-3bdb"/>
+        <characteristicType name="Amount of Wayfarer" id="d0a9-e331-9887-367f"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="9.0 Trivia" id="4729-dd1d-0c84-935e" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Trivia" id="67d0-7896-1558-21ff"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -994,18 +1027,18 @@ Pierce (1)</characteristic>
         </profile>
         <profile name="Pathfinder" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="9e01-13dc-9b44-2b50">
           <characteristics>
-            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a"/>
-            <characteristic name="Rng" typeId="2006-b280-cd47-9291"/>
-            <characteristic name="Dmg" typeId="be83-9547-209c-18fc"/>
-            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6"/>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Wavepulser</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">Auto-Hit</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">3/3</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Template (Teardrop)</characteristic>
           </characteristics>
         </profile>
         <profile name="Pathfinder" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="99d8-0c45-7909-38b4">
           <characteristics>
-            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2"/>
-            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a"/>
-            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d"/>
-            <characteristic name="Special" typeId="8d64-1476-8b60-c53a"/>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Handpick</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">2/2</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Pierce (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1930,6 +1963,11 @@ Natural
 Reach (3)</characteristic>
           </characteristics>
         </profile>
+        <profile name="Ankylo" typeId="4729-dd1d-0c84-935e" typeName="9.0 Trivia" hidden="false" id="fc74-2c65-c81c-40c8">
+          <characteristics>
+            <characteristic name="Trivia" typeId="67d0-7896-1558-21ff">Der Begriff &quot;Thagomizer&quot; bezieht sich auf die vier Zacken am Schwanz des Stegosaurus. Der Name ist inspiriert von einem &quot;Far Side&quot;-Cartoon, in dem ein Höhlenmensch den Schwanz eines Stegosaurus nach &quot;dem verstorbenen Thag Simmons&quot; benennt. Diese Stacheln dienten vermutlich der Verteidigung, indem sie Feinde verwunden konnten.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Rooted" id="83a4-2fb0-ea70-ecfb" hidden="false" type="rule" targetId="bccc-2056-c6be-2695"/>
@@ -2327,6 +2365,7 @@ Reach (1)</characteristic>
       <categoryLinks>
         <categoryLink name="Wayfarer" hidden="false" id="2994-35e1-a5cf-7631" targetId="517d-7965-7e3a-9154" primary="false"/>
         <categoryLink targetId="3f98-9ca0-5510-889b" id="81a9-3bca-255e-0e6c" primary="true" name="Leader"/>
+        <categoryLink targetId="81af-9ff5-4232-aae3" id="272c-a193-752c-9e70" primary="false" name="Wayfarer/Corsair Leader"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4b3b-dbe6-a8e1-d47e" includeChildSelections="true"/>
@@ -2382,6 +2421,7 @@ Deviate (2)</characteristic>
       <categoryLinks>
         <categoryLink targetId="3f98-9ca0-5510-889b" id="a950-35d2-034f-54ea" primary="true" name="Leader"/>
         <categoryLink targetId="f00f-af05-eb26-2539" id="f73f-5493-db42-0faa" primary="false" name="Corsair"/>
+        <categoryLink targetId="81af-9ff5-4232-aae3" id="81fd-da96-6680-e9ea" primary="false" name="Wayfarer/Corsair Leader"/>
       </categoryLinks>
       <costs>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="22"/>
@@ -2443,6 +2483,7 @@ Sunder (1)</characteristic>
       <categoryLinks>
         <categoryLink targetId="3f98-9ca0-5510-889b" id="6871-da5c-f0fb-a3e6" primary="true" name="Leader"/>
         <categoryLink targetId="f00f-af05-eb26-2539" id="4d9c-9893-aabf-3562" primary="false" name="Corsair"/>
+        <categoryLink targetId="81af-9ff5-4232-aae3" id="58d5-9afd-ffc0-9396" primary="false" name="Wayfarer/Corsair Leader"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c683-1ccb-8fe5-cec6" includeChildSelections="true"/>
@@ -2510,6 +2551,7 @@ Venom (1)</characteristic>
         <categoryLink name="Leader" hidden="false" id="6d0b-0e54-a946-6d25" targetId="3f98-9ca0-5510-889b" primary="true"/>
         <categoryLink name="Corsair" hidden="false" id="e769-668c-942e-aa79" targetId="f00f-af05-eb26-2539" primary="false"/>
         <categoryLink targetId="026f-72e1-f1fc-a568" id="59e8-5256-3e54-01a8" primary="false" name="Cavalry"/>
+        <categoryLink targetId="81af-9ff5-4232-aae3" id="1890-4d5c-eb18-69f4" primary="false" name="Wayfarer/Corsair Leader"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dec8-c8f3-ae48-219e" includeChildSelections="true"/>
