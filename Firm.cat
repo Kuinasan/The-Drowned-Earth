@@ -30,5 +30,15 @@
     <entryLink import="true" name="Kaneda Mounted" hidden="false" id="6498-a242-70c1-8af6" type="selectionEntry" targetId="b0b1-f2f2-ba2d-9d66"/>
     <entryLink import="true" name="Kaneda" hidden="false" id="6ac4-22cd-d541-efa9" type="selectionEntry" targetId="7b54-97c2-9467-618c"/>
     <entryLink import="true" name="Kassel" hidden="false" id="05ff-0cc0-980b-20b9" type="selectionEntry" targetId="af7c-49db-7b23-705b"/>
+    <entryLink import="true" name="Bez" hidden="false" id="eb02-9db3-ccc0-3cbc" type="selectionEntry" targetId="858b-c229-13ef-3d50"/>
+    <entryLink import="true" name="Kyoshi" hidden="false" id="c517-c34f-0a40-d688" type="selectionEntry" targetId="95d2-d391-7b52-6375"/>
+    <entryLink import="true" name="Lissz" hidden="false" id="5007-937a-713e-fef4" type="selectionEntry" targetId="96ae-7025-8c29-a1c3"/>
+    <entryLink import="true" name="Hosk" hidden="false" id="c141-24cc-2da3-8bda" type="selectionEntry" targetId="b739-b6a5-6caf-eecd"/>
+    <entryLink import="true" name="Lakassk" hidden="false" id="3c51-80d8-13c2-e3ad" type="selectionEntry" targetId="9b17-a352-3879-0e90"/>
+    <entryLink import="true" name="Mirja" hidden="false" id="99c3-a526-ad45-8aab" type="selectionEntry" targetId="a2ce-eb1c-1562-4b93"/>
+    <entryLink import="true" name="Venk" hidden="false" id="24a6-ea5e-0162-993e" type="selectionEntry" targetId="25c0-fe85-8635-6057"/>
+    <entryLink import="true" name="Makko" hidden="false" id="d41c-6037-1049-66d1" type="selectionEntry" targetId="22e1-bf31-df95-9d9b"/>
+    <entryLink import="true" name="Pyro" hidden="false" id="e7bf-8558-fc17-adb9" type="selectionEntry" targetId="4688-dc86-462d-9a2b"/>
+    <entryLink import="true" name="Thug" hidden="false" id="0fff-e2b1-dc02-ceb4" type="selectionEntry" targetId="1f7d-6ae8-71b5-6f45"/>
   </entryLinks>
 </catalogue>

@@ -5220,6 +5220,574 @@ Stun (1)</characteristic>
         <entryLink import="true" name="Leader Ability" hidden="false" id="d61f-df2f-541a-549e" type="selectionEntryGroup" targetId="242c-3a09-b0a9-e783"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lissz" hidden="false" id="96ae-7025-8c29-a1c3">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="18"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="84c1-3344-f0b1-4f82" primary="false" name="Firm"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="844b-9e6f-4a2a-099f" primary="true" name="Charakter"/>
+        <categoryLink targetId="8e56-16be-81c7-b34c" id="373a-972a-2b01-bc03" primary="false" name="Scout"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0f1a-b911-0f84-4824" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Lissz" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="658b-f9c0-138c-cbf6">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[5]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">5/7</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">4</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">1</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">A</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lissz" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="1421-43d3-804d-5522">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lissz" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="6809-476a-7428-b085">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Blowpipe</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">12/12</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">1/1</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Stun (1)
+Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lissz" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="af92-7ea0-cd9d-d4e0">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Ancient Blade</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">2/3</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Stealth" id="4442-71e1-2bbc-c284" hidden="false" type="rule" targetId="a829-873d-7673-09df"/>
+        <infoLink name="Ambush" id="c590-f3bf-197e-fab0" hidden="false" type="rule" targetId="2e07-c235-67d1-dac7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hosk" hidden="false" id="b739-b6a5-6caf-eecd">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="22"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="7958-4800-393f-e00d" primary="true" name="Charakter"/>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="efc8-3ec3-03f1-0d37" primary="false" name="Firm"/>
+        <categoryLink targetId="b792-d288-e46c-a4c5" id="6438-0ac5-69ad-bab2" primary="false" name="Tough"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ef94-5ce0-2f8d-1d9e" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Hosk" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="a4fc-451f-4b34-a915">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[4]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">5/7</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">5</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">1</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">B</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hosk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="a765-4d4f-f5aa-14c2">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hosk" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="e47c-0466-edfa-4d30">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Duelling Pistol</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">10/14</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">3/3</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hosk" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="cc51-47e5-03dc-c516">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Powersledge</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">4/5</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Sunder (1)
+Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Mobility (Climb)" id="fe88-e16f-7370-23fc" hidden="false" type="rule" targetId="453f-3a5b-493c-504b"/>
+        <infoLink name="Savage" id="7c9d-9946-525a-bf6c" hidden="false" type="rule" targetId="1c83-9415-a7e7-61fd"/>
+        <infoLink name="Ambush" id="3d7a-a2e4-ce2a-d938" hidden="false" type="rule" targetId="2e07-c235-67d1-dac7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Venk" hidden="false" id="25c0-fe85-8635-6057">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="21"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="aaf8-5495-2161-ef67" primary="true" name="Charakter"/>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="167e-adbc-41a9-a363" primary="false" name="Firm"/>
+        <categoryLink targetId="4d5f-445c-2038-e055" id="0d2b-099a-2e85-ee78" primary="false" name="Medic"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="984c-1b41-cc36-c8f3" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Venk" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="3a11-a258-cdd9-4e9a">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[4]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">4/6</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">3</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">1</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">A</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Venk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="a0dc-df66-ddd7-00c3">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Venk" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="c937-8592-6295-ea88">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Mastercrafted Rifle</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">9/21</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">3/4</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Sunder (1)
+Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Venk" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="181b-1170-115f-0fa2">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Poisoned Blade</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">1/2</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Stun (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Sniper" id="9f0c-bd4c-f68d-08d7" hidden="false" type="rule" targetId="8eaa-36d6-460e-b080"/>
+        <infoLink name="Float Like a Butterfly" id="f552-11fe-1eb4-4c24" hidden="false" type="rule" targetId="9467-29c0-3e6d-f7b3"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mirja" hidden="false" id="a2ce-eb1c-1562-4b93">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="15"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="3d45-e55f-3ee2-8e04" primary="false" name="Firm"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="66d5-f198-bc62-7d01" primary="true" name="Charakter"/>
+        <categoryLink targetId="bd3b-5d1c-9728-168c" id="3dbd-5133-9cf6-2641" primary="false" name="Mech"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="005a-0578-ee8b-3eab" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Mirja" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="9d5e-eca7-6d20-b97e">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[5]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">5/6</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">4</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">1</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">A</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mirja" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="7634-a6fe-7a89-cec3">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mirja" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="6b63-0065-e879-6983">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Inferno Pack Ranged</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">Auto-Hit</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">2/2</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Fire (2)
+Template (Teardrop)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mirja" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="2c52-6981-34a7-8b10">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Inferno Pack Melee</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">2/2</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Fire (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Camouflaged" id="c094-9d50-6743-0d04" hidden="false" type="rule" targetId="fd77-db8d-3c95-cbab"/>
+        <infoLink name="Aggressor" id="f3ab-f308-92fe-6192" hidden="false" type="rule" targetId="2da8-66cb-e887-248c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lakassk" hidden="false" id="9b17-a352-3879-0e90">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="15"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="da4b-c9c3-090b-cd28" primary="false" name="Firm"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="5f10-2132-ac56-eacc" primary="true" name="Charakter"/>
+        <categoryLink targetId="bd3b-5d1c-9728-168c" id="21bf-7ceb-f419-7866" primary="false" name="Mech"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4dbd-8eb5-443b-c03c" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Lakassk" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="f4dc-235f-3a18-8559">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[5]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">4/6</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">4</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">1</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">A</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lakassk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="6f56-4892-2349-3daf">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lakassk" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="dbbd-a8d6-e29d-594c">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Nova Cannon</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">11/18</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">2/2</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Blind
+Template (Small)
+Deviate (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lakassk" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="84dc-c6b8-6acc-3922">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Ancient Blade</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">2/3</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Camouflaged" id="2b12-f331-3b2a-bb2d" hidden="false" type="rule" targetId="fd77-db8d-3c95-cbab"/>
+        <infoLink name="Run and Gun" id="1509-6366-5c79-87b3" hidden="false" type="rule" targetId="2aae-49f2-eae8-fde5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Makko" hidden="false" id="22e1-bf31-df95-9d9b">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="25"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ccab-6d26-4b76-78c6" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="f6f6-e3bd-973c-f0c7" primary="false" name="Firm"/>
+        <categoryLink targetId="b792-d288-e46c-a4c5" id="a5d0-13b2-4317-71bf" primary="false" name="Tough"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="d18d-f3a0-a8ac-6624" primary="true" name="Charakter"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Makko" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="f420-fb48-4439-bfce">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[4]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">4/6</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">5</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">1</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">B</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Makko" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="8858-b17a-a412-1b28">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">5</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Makko" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="bcbb-11ab-1fd6-57a4">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Choke Grenades</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">10/10</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">2/2</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Template (Small)
+Deviate (1)
+Choke
+Finite</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Makko" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="6e85-f36e-7e41-5bf4">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Head-Tusk</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">3/5</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Sunder (1)
+Natural
+Knockdown</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Mighty Blow" id="91c2-7d73-0788-97b0" hidden="false" type="rule" targetId="c2cb-35ee-6f38-d1c1"/>
+        <infoLink name="Ambush" id="812b-8322-3f7f-7500" hidden="false" type="rule" targetId="2e07-c235-67d1-dac7"/>
+        <infoLink name="Sting like a Bee" id="38f7-5384-eecd-c9cd" hidden="false" type="rule" targetId="a6df-f3e8-f7b1-59ae"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kyoshi" hidden="false" id="95d2-d391-7b52-6375">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="17"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="1d8b-e55b-7346-38b8" primary="false" name="Firm"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="d220-a657-c59a-606a" primary="true" name="Charakter"/>
+        <categoryLink targetId="8e56-16be-81c7-b34c" id="e6ed-4a14-bfe1-19dc" primary="false" name="Scout"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e469-647d-bb41-b239" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Kyoshi" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="3b95-039b-c6de-7290">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[4]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">4/6</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">3</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">1</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">A</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Kyoshi" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="7308-8bfb-6307-b4dc">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Kyoshi" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="2430-c584-ddc5-e2fd">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Tranq Rifle</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">10/20</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">1/2</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Venom (1)
+Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Kyoshi" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="46be-f6a0-d9d5-3380">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Handpick</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">2/2</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Mobility (Climb)" id="287c-efc4-51b1-d45c" hidden="false" type="rule" targetId="453f-3a5b-493c-504b"/>
+        <infoLink name="Re-stealth" id="50b0-ad25-0984-fe2e" hidden="false" type="rule" targetId="9ffb-356c-5008-e82b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bez" hidden="false" id="858b-c229-13ef-3d50">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="16"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="21df-8b96-1e82-fbb0" primary="false" name="Firm"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="7257-5937-ba86-1ef7" primary="true" name="Charakter"/>
+        <categoryLink targetId="4d5f-445c-2038-e055" id="43f5-d367-7967-f626" primary="false" name="Medic"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c2fc-2a9f-52a4-85d0" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Bez" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="cc67-4ed9-aed6-bbb1">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[3]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">4/6</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">3</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">1</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">A</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bez" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="042c-df88-98a7-8f8e">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bez" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="b66f-37ee-b0d7-8acb">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Globepult</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">10/10</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">0/0</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Template (Large)
+Deviate (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bez" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="a2c0-2877-1568-c081">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Ancient Blade</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">2/3</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Kill or Cure" id="168e-aeb8-9203-bd7e" hidden="false" type="rule" targetId="4619-d8d9-adc6-b5ea"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Thug" hidden="false" id="1f7d-6ae8-71b5-6f45">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="10"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="8aa3-ac06-21a7-f660" primary="false" name="Firm"/>
+        <categoryLink targetId="fd22-fda8-ae83-4bd0" id="6e92-3548-f7dd-459d" primary="true" name="Troop"/>
+        <categoryLink targetId="abee-c8fa-7d77-0605" id="3072-2fe9-1be7-70d1" primary="false" name="None"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="a8a9-60e5-95c8-75cc" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Thug" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="30f1-6a38-ac5c-f479">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[3]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">4/6</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">3</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">3</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">A</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thug" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c280-62cb-cc33-922f">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thug" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="dfab-3dcd-6293-2397">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Sidearm</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">10/15</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">2/3</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thug" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="94a2-c717-55e8-bf9a">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Knife</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">1/2</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Captain (Makko)" id="8d57-c1f8-153c-7306" hidden="false" type="rule" targetId="d061-6fe7-84f4-e27b"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" value="2" field="aebb-a9e8-4e59-11a0">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="22e1-bf31-df95-9d9b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Pyro" hidden="false" id="4688-dc86-462d-9a2b">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="17"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9a44-22b3-2553-de9d" id="7315-b01e-80b9-83ea" primary="false" name="Firm"/>
+        <categoryLink targetId="abee-c8fa-7d77-0605" id="e205-75be-507a-063f" primary="false" name="None"/>
+        <categoryLink targetId="fd22-fda8-ae83-4bd0" id="9d4c-61e6-6089-f194" primary="true" name="Troop"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="96cd-6947-67f5-6fdf" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Pyro" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="486b-72a3-ec91-439f">
+          <characteristics>
+            <characteristic name="AP" typeId="dd84-5007-92d8-88d0">2[3]</characteristic>
+            <characteristic name="Speed" typeId="dd97-6ee0-3d45-67d0">4/6</characteristic>
+            <characteristic name="Wound" typeId="c433-a067-48ae-0c15">4</characteristic>
+            <characteristic name="Frequency" typeId="e0bc-9ea1-6e92-87ec">2</characteristic>
+            <characteristic name="Line of Sight Template" typeId="a564-06c6-f082-bea8">B</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pyro" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="8f1f-a479-3f4c-dc28">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pyro" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="3225-f1a1-bcc0-ae90">
+          <characteristics>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Inferno Launcher</characteristic>
+            <characteristic name="Rng" typeId="2006-b280-cd47-9291">12/12</characteristic>
+            <characteristic name="Dmg" typeId="be83-9547-209c-18fc">2/2</characteristic>
+            <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Template (Large)
+Deviate (3)
+Flame (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pyro" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="e41c-9e81-f998-0d33">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Knife</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">1/2</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Pierce (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Captain (Mirja)" id="c779-13bc-7c70-d527" hidden="false" type="rule" targetId="6e44-7e2a-b213-012d"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="decrement" value="2" field="aebb-a9e8-4e59-11a0">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a2ce-eb1c-1562-4b93" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Reflexes (2)" id="b7dc-daa7-4f1d-4349" hidden="false">
@@ -5466,6 +6034,15 @@ may not be combined with any other kind of Dynamic Movement.</description>
     </rule>
     <rule name="Haymaker" id="bf98-3fcb-0d13-393c" hidden="false">
       <description>If this Model successfully Hits in CC, during the Test Step, you may roll 2 Damage against each additional Enemy Model within 2” of this Model, and apply any weapon special effects used in the original attack.</description>
+    </rule>
+    <rule name="Kill or Cure" id="4619-d8d9-adc6-b5ea" hidden="false">
+      <description>When declaring a ranged Attack this Model may choose to apply either Heal(1), Dmg 1 + Venom(1) or Dmg 1 + Choke to this attack.</description>
+    </rule>
+    <rule name="Captain (Makko)" id="d061-6fe7-84f4-e27b" hidden="false">
+      <description>When this Model is taken in the same crew as Makko it costs -2pts.</description>
+    </rule>
+    <rule name="Captain (Mirja)" id="6e44-7e2a-b213-012d" hidden="false">
+      <description>When this Model is taken in the same crew as Mirja it costs -2pts.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
