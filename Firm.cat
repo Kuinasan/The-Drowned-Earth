@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="4ca8-5cc1-6c45-94d8" name="Firm" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Ryuza" hidden="false" id="bd34-961a-3cc0-9d19" type="selectionEntry" targetId="e16d-bdac-e487-5937"/>
+    <entryLink import="true" name="Yuttaraptor - Alpha" hidden="false" id="d186-46e1-ac80-a09c" type="selectionEntry" targetId="ed98-cd53-d78b-5a93"/>
+    <entryLink import="true" name="Yuttaraptor" hidden="false" id="66e0-7138-b540-171f" type="selectionEntry" targetId="ef20-f23a-2cb5-6122"/>
+    <entryLink import="true" name="Wishbone" hidden="false" id="cb2b-28c5-d6bf-4946" type="selectionEntry" targetId="605b-944d-3588-b0ac"/>
+    <entryLink import="true" name="Troodon - Alpha" hidden="false" id="bd17-2b41-099e-17c7" type="selectionEntry" targetId="cef3-386d-c45b-67b6"/>
+    <entryLink import="true" name="Troodon" hidden="false" id="7849-a65f-d2ac-4705" type="selectionEntry" targetId="03ec-59f7-c914-bb84"/>
+    <entryLink import="true" name="Sinoraptor" hidden="false" id="3c7a-77ca-ee8f-ce41" type="selectionEntry" targetId="0282-13f0-8e3a-9495"/>
+    <entryLink import="true" name="Sinoraptor - Alpha" hidden="false" id="7982-6b6f-b6df-fa5c" type="selectionEntry" targetId="1752-6f11-99d2-a0f0"/>
+    <entryLink import="true" name="Oviraptor" hidden="false" id="5c70-ecd4-bf54-c71c" type="selectionEntry" targetId="caaa-f2ad-eac8-b3c2"/>
+    <entryLink import="true" name="Magnasor - Alpha" hidden="false" id="9005-0b2f-af91-bdc4" type="selectionEntry" targetId="05bc-85d8-a3eb-1d74"/>
+    <entryLink import="true" name="Magnasor " hidden="false" id="5072-0b74-51f9-02a7" type="selectionEntry" targetId="3a7a-dfd5-9548-9b55"/>
+    <entryLink import="true" name="LLiana" hidden="false" id="7742-ffd8-f234-ce64" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b"/>
+    <entryLink import="true" name="Keratosor" hidden="false" id="1b7b-aad9-01c6-3975" type="selectionEntry" targetId="c308-b7e0-2136-219b"/>
+    <entryLink import="true" name="Kalhana" hidden="false" id="010b-c9f8-c981-4686" type="selectionEntry" targetId="306a-31ea-849c-57fa"/>
+    <entryLink import="true" name="Grayze" hidden="false" id="8a16-263f-c57d-a3f6" type="selectionEntry" targetId="cd0b-ab44-07aa-7b8f"/>
+    <entryLink import="true" name="Domehead" hidden="false" id="3bb8-6a82-6d2d-7040" type="selectionEntry" targetId="352d-fe8e-223c-f784"/>
+    <entryLink import="true" name="Dilophosor - Alpha" hidden="false" id="cd0b-f360-fdef-4255" type="selectionEntry" targetId="9335-ed11-f868-2e52"/>
+    <entryLink import="true" name="Dilophosor" hidden="false" id="5f11-39fe-de12-093d" type="selectionEntry" targetId="643e-8275-2a24-59cf"/>
+    <entryLink import="true" name="Ceratops" hidden="false" id="43e0-2fe0-7965-5e88" type="selectionEntry" targetId="d753-02a4-2510-a999"/>
+    <entryLink import="true" name="Bluewing" hidden="false" id="7dd9-0ae4-e311-bffa" type="selectionEntry" targetId="f1dd-96d2-fb6a-38b0"/>
+    <entryLink import="true" name="Baryonyx" hidden="false" id="9abe-51d6-13f1-427d" type="selectionEntry" targetId="4d5e-50dd-9e58-136a"/>
+    <entryLink import="true" name="Aronax" hidden="false" id="1874-88db-ac76-58a2" type="selectionEntry" targetId="1e4a-3705-e6c1-8d42"/>
+    <entryLink import="true" name="Arabelle" hidden="false" id="1f53-e573-f679-b6c7" type="selectionEntry" targetId="bcc3-5f28-8af7-3c5f"/>
+    <entryLink import="true" name="Ankylo" hidden="false" id="9eee-05a8-916f-a0fd" type="selectionEntry" targetId="ea8f-5324-d933-5856"/>
+    <entryLink import="true" name="Tanto" hidden="false" id="effc-7562-b615-3c90" type="selectionEntry" targetId="565a-6e2c-baec-55f1"/>
+    <entryLink import="true" name="Oviraptor - Firm" hidden="false" id="409a-9d8b-f584-b6e3" type="selectionEntry" targetId="90c8-4942-2982-7746"/>
+    <entryLink import="true" name="Kaneda Mounted" hidden="false" id="6498-a242-70c1-8af6" type="selectionEntry" targetId="b0b1-f2f2-ba2d-9d66"/>
+    <entryLink import="true" name="Kaneda" hidden="false" id="6ac4-22cd-d541-efa9" type="selectionEntry" targetId="7b54-97c2-9467-618c"/>
+    <entryLink import="true" name="Kassel" hidden="false" id="05ff-0cc0-980b-20b9" type="selectionEntry" targetId="af7c-49db-7b23-705b"/>
+  </entryLinks>
+</catalogue>
