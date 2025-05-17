@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="b283-5fe6-6b1c-e0f5" name="Wayfarers" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Wishbone Leader" hidden="false" id="e2d1-e9c8-fe29-a6a9" type="selectionEntry" targetId="2586-51fe-bfe0-65cc"/>
+    <entryLink import="true" name="Kalhana" hidden="false" id="46dd-dea1-4694-e965" type="selectionEntry" targetId="306a-31ea-849c-57fa">
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="bb02-3334-142c-b0b9" primary="true" name="Crew"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Aronax" hidden="false" id="875c-1e28-dd46-061c" type="selectionEntry" targetId="1e4a-3705-e6c1-8d42">
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="f8b8-a80c-e540-f484" primary="true" name="Crew"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bluewing" hidden="false" id="a058-8428-0f84-d81f" type="selectionEntry" targetId="f1dd-96d2-fb6a-38b0">
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="c264-21fc-3251-160c" primary="true" name="Crew"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="LLiana" hidden="false" id="a7a5-2b71-509a-2253" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b">
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="dd33-6727-037d-2c1b" primary="true" name="Crew"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ryuza" hidden="false" id="daa5-105e-55c8-9cbd" type="selectionEntry" targetId="e16d-bdac-e487-5937">
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="99c7-aa93-0ef9-4381" primary="true" name="Crew"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Arrabelle" hidden="false" id="d81b-e0e9-4fef-b6c6" type="selectionEntry" targetId="bcc3-5f28-8af7-3c5f">
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="9e84-49dd-7c12-2e35" primary="true" name="Crew"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grayze" hidden="false" id="1d05-b739-84b0-6ef4" type="selectionEntry" targetId="cd0b-ab44-07aa-7b8f">
+      <categoryLinks>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="0ab5-00af-377c-d134" primary="true" name="Crew"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mach" hidden="false" id="ac86-e669-66ed-b431" type="selectionEntry" targetId="f135-78f5-64d4-ffdb">
+      <categoryLinks>
+        <categoryLink targetId="f00f-af05-eb26-2539" id="42d9-58a8-b6e0-ab8b" primary="true" name="Corsair"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Noalla" hidden="false" id="4505-904b-349b-58af" type="selectionEntry" targetId="4102-5809-f6a9-3fb9">
+      <categoryLinks>
+        <categoryLink targetId="f00f-af05-eb26-2539" id="5dbe-a064-e961-2fca" primary="true" name="Corsair"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Uxhi" hidden="false" id="cfe5-f994-816c-e9e7" type="selectionEntry" targetId="63a6-d0ce-ac5c-e5b4">
+      <categoryLinks>
+        <categoryLink targetId="f00f-af05-eb26-2539" id="8152-6874-17d9-e711" primary="true" name="Corsair"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mattiu" hidden="false" id="91fe-300b-bba1-963b" type="selectionEntry" targetId="3c4a-299e-6cbf-e663">
+      <categoryLinks>
+        <categoryLink targetId="f00f-af05-eb26-2539" id="9fb6-6a3d-b4d7-4d24" primary="true" name="Corsair"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bo&apos;Sun" hidden="false" id="f5f0-0e0c-fd09-888f" type="selectionEntry" targetId="875d-2bdd-e1c3-d930"/>
+    <entryLink import="true" name="Jibb" hidden="false" id="b27f-214d-a7de-83cd" type="selectionEntry" targetId="f666-d1e3-4d28-58bb"/>
+    <entryLink import="true" name="Ankylo" hidden="false" id="1ad5-d189-3c12-46a4" type="selectionEntry" targetId="ea8f-5324-d933-5856"/>
+    <entryLink import="true" name="Yuttaraptor" hidden="false" id="2d8f-5575-1220-914c" type="selectionEntry" targetId="ef20-f23a-2cb5-6122"/>
+    <entryLink import="true" name="Keratosor" hidden="false" id="e778-6293-b089-08f9" type="selectionEntry" targetId="c308-b7e0-2136-219b"/>
+    <entryLink import="true" name="Domehead" hidden="false" id="77e3-a856-d0f4-e5af" type="selectionEntry" targetId="352d-fe8e-223c-f784"/>
+    <entryLink import="true" name="Yuttaraptor - Alpha" hidden="false" id="8e4e-e17c-7c4c-5acf" type="selectionEntry" targetId="ed98-cd53-d78b-5a93"/>
+    <entryLink import="true" name="Magnasor - Alpha" hidden="false" id="b46f-eeed-c031-4397" type="selectionEntry" targetId="05bc-85d8-a3eb-1d74"/>
+    <entryLink import="true" name="Oviraptor" hidden="false" id="25c6-a712-5f5e-242b" type="selectionEntry" targetId="caaa-f2ad-eac8-b3c2"/>
+    <entryLink import="true" name="Dilophosor" hidden="false" id="09ab-cda6-1da8-6c55" type="selectionEntry" targetId="643e-8275-2a24-59cf"/>
+    <entryLink import="true" name="Dilophosor - Alpha" hidden="false" id="2732-45af-4022-a204" type="selectionEntry" targetId="9335-ed11-f868-2e52"/>
+    <entryLink import="true" name="Troodon" hidden="false" id="31a7-6f31-19f1-d55d" type="selectionEntry" targetId="03ec-59f7-c914-bb84"/>
+    <entryLink import="true" name="Magnasor " hidden="false" id="c358-7362-6779-94e0" type="selectionEntry" targetId="3a7a-dfd5-9548-9b55"/>
+    <entryLink import="true" name="Troodon - Alpha" hidden="false" id="488c-5f94-202b-7026" type="selectionEntry" targetId="cef3-386d-c45b-67b6"/>
+    <entryLink import="true" name="Sinoraptor" hidden="false" id="6370-fe00-9a76-7a35" type="selectionEntry" targetId="0282-13f0-8e3a-9495"/>
+    <entryLink import="true" name="Sinoraptor - Alpha" hidden="false" id="d81f-1781-62d0-11c5" type="selectionEntry" targetId="1752-6f11-99d2-a0f0"/>
+    <entryLink import="true" name="Baryonyx" hidden="false" id="6859-071b-1b8a-09dc" type="selectionEntry" targetId="4d5e-50dd-9e58-136a"/>
+    <entryLink import="true" name="Ceratops" hidden="false" id="c5b5-1ca8-11ae-83f9" type="selectionEntry" targetId="d753-02a4-2510-a999"/>
+    <entryLink import="true" name="Deck Hands" hidden="false" id="1f29-e5db-f9e4-204d" type="selectionEntry" targetId="41a0-18f8-3f5b-ada3"/>
+  </entryLinks>
+</catalogue>

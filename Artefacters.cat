@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="57d6-a6cc-23fb-fd70" name="Artefacters" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Nix" hidden="false" id="7e6a-09ee-c83f-8270" type="selectionEntry" targetId="5343-8e6d-ac71-40ec">
+      <categoryLinks>
+        <categoryLink targetId="3f98-9ca0-5510-889b" id="7f38-3fa7-7442-e4b2" primary="false" name="Leader"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nix Mounted" hidden="false" id="4a50-07d1-5bb8-8730" type="selectionEntry" targetId="a3ba-dfc4-305e-23cd"/>
+    <entryLink import="true" name="Playdge" hidden="false" id="5351-e6d5-f728-b961" type="selectionEntry" targetId="0997-9f02-6065-7a1f"/>
+    <entryLink import="true" name="Slethssk" hidden="false" id="0aee-2ab8-2524-8ea4" type="selectionEntry" targetId="27e1-c385-3b5f-1f64"/>
+    <entryLink import="true" name="Arrabelle" hidden="false" id="61ce-0c18-4efc-9210" type="selectionEntry" targetId="bcc3-5f28-8af7-3c5f"/>
+    <entryLink import="true" name="LLiana" hidden="false" id="95cf-4aa7-96d9-5b25" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b"/>
+    <entryLink import="true" name="Tidala" hidden="false" id="ec61-a767-940c-cd0b" type="selectionEntry" targetId="85ea-6562-d201-b4e8"/>
+    <entryLink import="true" name="Ando" hidden="false" id="af19-dcd0-bf72-9e61" type="selectionEntry" targetId="efa6-2b74-bc5c-42ce"/>
+    <entryLink import="true" name="Corian" hidden="false" id="85bd-c444-07dd-d0a5" type="selectionEntry" targetId="c628-8536-f6f1-a8d2"/>
+    <entryLink import="true" name="Ana" hidden="false" id="2986-4d55-8a83-b402" type="selectionEntry" targetId="c141-f852-1be3-3ca3"/>
+    <entryLink import="true" name="Sage" hidden="false" id="f935-21ce-9c40-5195" type="selectionEntry" targetId="3a09-9237-2114-010b"/>
+    <entryLink import="true" name="Kohua" hidden="false" id="5ce6-0af5-6620-785f" type="selectionEntry" targetId="c846-a896-9fa4-c5da"/>
+    <entryLink import="true" name="Troodon - Lyra" hidden="false" id="bcb3-8f5b-e6a2-b64c" type="selectionEntry" targetId="a083-4f57-5de4-abfb"/>
+    <entryLink import="true" name="Romi" hidden="false" id="b512-35f1-4530-e31d" type="selectionEntry" targetId="ad3f-a21a-7143-7a0e"/>
+    <entryLink import="true" name="Pathfinder" hidden="false" id="caa5-7d13-4793-e2d5" type="selectionEntry" targetId="adf3-358f-819e-b035"/>
+    <entryLink import="true" name="Dig Security" hidden="false" id="fcd2-0151-0449-b783" type="selectionEntry" targetId="13dd-dd19-a2ac-4a8b"/>
+    <entryLink import="true" name="Lyra" hidden="false" id="1e63-0a45-7692-8f21" type="selectionEntry" targetId="bb0c-0b34-326e-9f48"/>
+    <entryLink import="true" name="Magnasor " hidden="false" id="5b29-dccc-9326-ba5d" type="selectionEntry" targetId="3a7a-dfd5-9548-9b55"/>
+    <entryLink import="true" name="Magnasor - Alpha" hidden="false" id="cdfa-5e15-2111-a684" type="selectionEntry" targetId="05bc-85d8-a3eb-1d74"/>
+    <entryLink import="true" name="Oviraptor" hidden="false" id="4dfb-5ae9-d923-798c" type="selectionEntry" targetId="caaa-f2ad-eac8-b3c2"/>
+    <entryLink import="true" name="Troodon - Alpha" hidden="false" id="46a7-d93c-0cb2-5e7c" type="selectionEntry" targetId="cef3-386d-c45b-67b6"/>
+    <entryLink import="true" name="Yuttaraptor" hidden="false" id="8009-2897-4af0-85ba" type="selectionEntry" targetId="ef20-f23a-2cb5-6122"/>
+    <entryLink import="true" name="Yuttaraptor - Alpha" hidden="false" id="e075-f2c9-ed8c-6f3c" type="selectionEntry" targetId="ed98-cd53-d78b-5a93"/>
+    <entryLink import="true" name="Troodon" hidden="false" id="315a-b3e8-6f6f-2ebc" type="selectionEntry" targetId="03ec-59f7-c914-bb84"/>
+    <entryLink import="true" name="Dilophosor" hidden="false" id="06cb-0e4c-e377-fb10" type="selectionEntry" targetId="643e-8275-2a24-59cf"/>
+    <entryLink import="true" name="Baryonyx" hidden="false" id="8e33-00e0-3fc0-6442" type="selectionEntry" targetId="4d5e-50dd-9e58-136a"/>
+    <entryLink import="true" name="Dilophosor - Alpha" hidden="false" id="d9aa-08c7-a5c5-3bf9" type="selectionEntry" targetId="9335-ed11-f868-2e52"/>
+    <entryLink import="true" name="Sinoraptor" hidden="false" id="8b66-fba0-59dc-60a7" type="selectionEntry" targetId="0282-13f0-8e3a-9495"/>
+    <entryLink import="true" name="Keratosor" hidden="false" id="b5a2-60ce-a041-9a6d" type="selectionEntry" targetId="c308-b7e0-2136-219b"/>
+    <entryLink import="true" name="Ceratops" hidden="false" id="a900-9c4f-7c1f-46ed" type="selectionEntry" targetId="d753-02a4-2510-a999"/>
+    <entryLink import="true" name="Sinoraptor - Alpha" hidden="false" id="36c3-7982-49cf-5074" type="selectionEntry" targetId="1752-6f11-99d2-a0f0"/>
+    <entryLink import="true" name="Ankylo" hidden="false" id="0683-e3db-8493-0e0b" type="selectionEntry" targetId="ea8f-5324-d933-5856"/>
+    <entryLink import="true" name="Domehead" hidden="false" id="856e-5e02-1752-f5b5" type="selectionEntry" targetId="352d-fe8e-223c-f784"/>
+    <entryLink import="true" name="Wishbone" hidden="false" id="0ecb-8fac-655e-b35d" type="selectionEntry" targetId="605b-944d-3588-b0ac"/>
+    <entryLink import="true" name="Grayze" hidden="false" id="fec2-43a7-de0b-04fc" type="selectionEntry" targetId="cd0b-ab44-07aa-7b8f"/>
+    <entryLink import="true" name="Kalhana" hidden="false" id="3a1a-ba29-ea17-c6a7" type="selectionEntry" targetId="306a-31ea-849c-57fa"/>
+    <entryLink import="true" name="Aronax" hidden="false" id="74a9-58c0-bc4c-57ad" type="selectionEntry" targetId="1e4a-3705-e6c1-8d42"/>
+    <entryLink import="true" name="Bluewing" hidden="false" id="0308-7f54-5a63-eb47" type="selectionEntry" targetId="f1dd-96d2-fb6a-38b0"/>
+    <entryLink import="true" name="Ryuza" hidden="false" id="fb0b-4228-0b43-ff7e" type="selectionEntry" targetId="e16d-bdac-e487-5937"/>
+  </entryLinks>
+</catalogue>
