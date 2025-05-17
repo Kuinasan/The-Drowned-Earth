@@ -5906,7 +5906,7 @@ Stun (1)</characteristic>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="New Entry" hidden="true" id="b11e-68b3-231e-de61" sortIndex="51">
+        <selectionEntry type="upgrade" import="true" name="Painted Target" hidden="true" id="b11e-68b3-231e-de61" sortIndex="51">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
