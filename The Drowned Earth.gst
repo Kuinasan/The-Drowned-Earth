@@ -529,7 +529,7 @@ Template (Lagere)</characteristic>
         </profile>
         <profile name="Arabelle" typeId="b269-73e1-78d6-7356" typeName="3.1 Range Combat" hidden="false" id="d0c7-b79e-8307-4b7b">
           <characteristics>
-            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Smoke Granades</characteristic>
+            <characteristic name="Weapon" typeId="3fa7-d45c-32d1-ef0a">Smoke Grenadas</characteristic>
             <characteristic name="Rng" typeId="2006-b280-cd47-9291">10/10</characteristic>
             <characteristic name="Dmg" typeId="be83-9547-209c-18fc">0/0</characteristic>
             <characteristic name="Special" typeId="405b-77a1-1ef8-c2c6">Template (Small)
@@ -552,7 +552,7 @@ Finite</characteristic>
         <infoLink name="Mobility (Leap)" id="ee6d-0e45-6267-a49f" hidden="false" type="rule" targetId="75d0-6b93-ed8e-16b3"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="LLiana" hidden="false" id="2469-ddf6-ea4e-b42b">
+    <selectionEntry type="model" import="true" name="Lliana" hidden="false" id="2469-ddf6-ea4e-b42b">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="017d-a9c3-ed74-b8fd" includeChildSelections="true"/>
       </constraints>
@@ -594,10 +594,10 @@ Finite</characteristic>
         </profile>
         <profile name="LLiana" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="eeee-f012-4676-5220">
           <characteristics>
-            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2"/>
-            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a"/>
-            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d"/>
-            <characteristic name="Special" typeId="8d64-1476-8b60-c53a"/>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Talons</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">2/3</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Natural</characteristic>
           </characteristics>
         </profile>
       </profiles>
