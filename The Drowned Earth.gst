@@ -62,7 +62,7 @@
     <categoryEntry name="Firm" id="9a44-22b3-2553-de9d" hidden="false"/>
     <categoryEntry name="Militia" id="e582-a1d1-be57-2ca9" hidden="false"/>
     <categoryEntry name="Bondsman" id="92f0-db32-a432-335b" hidden="false"/>
-    <categoryEntry name="Charakter" id="1b7e-397a-03ee-6576" hidden="false"/>
+    <categoryEntry name="Character" id="1b7e-397a-03ee-6576" hidden="false"/>
     <categoryEntry name="Scout" id="8e56-16be-81c7-b34c" hidden="false"/>
     <categoryEntry name="Medic" id="4d5f-445c-2038-e055" hidden="false"/>
     <categoryEntry name="Mech" id="bd3b-5d1c-9728-168c" hidden="false"/>
@@ -111,7 +111,7 @@
       <categoryLinks>
         <categoryLink name="Leader" hidden="false" id="3596-0a61-8692-90fb" targetId="3f98-9ca0-5510-889b"/>
         <categoryLink name="Ajutant" hidden="false" id="5b5e-a167-ee21-5284" targetId="14f4-34d1-df54-e139"/>
-        <categoryLink name="Charakter" hidden="false" id="e390-7479-40e5-888c" targetId="1b7e-397a-03ee-6576"/>
+        <categoryLink name="Character" hidden="false" id="e390-7479-40e5-888c" targetId="1b7e-397a-03ee-6576"/>
         <categoryLink name="Wisperer" hidden="false" id="9547-e16c-9600-ab3c" targetId="d9be-741a-50bd-bd74"/>
         <categoryLink name="Troop" hidden="false" id="9a80-dac2-f6e2-fcc1" targetId="fd22-fda8-ae83-4bd0"/>
         <categoryLink name="Wayfarer" hidden="false" id="7673-f44e-beba-64c0" targetId="517d-7965-7e3a-9154"/>
@@ -134,7 +134,7 @@
       <categoryLinks>
         <categoryLink name="Leader" hidden="false" id="d757-4c58-89e2-5ec8" targetId="3f98-9ca0-5510-889b"/>
         <categoryLink name="Ajutant" hidden="false" id="619d-593e-a5b3-63f5" targetId="14f4-34d1-df54-e139"/>
-        <categoryLink name="Charakter" hidden="false" id="2d47-13ce-cf69-e85c" targetId="1b7e-397a-03ee-6576"/>
+        <categoryLink name="Character" hidden="false" id="2d47-13ce-cf69-e85c" targetId="1b7e-397a-03ee-6576"/>
         <categoryLink name="Wisperer" hidden="false" id="6ebe-a0d9-1a98-10fe" targetId="d9be-741a-50bd-bd74"/>
         <categoryLink name="Troop" hidden="false" id="71f9-7630-d432-f92b" targetId="fd22-fda8-ae83-4bd0"/>
         <categoryLink name="Wayfarer" hidden="false" id="de65-746e-efae-fb39" targetId="517d-7965-7e3a-9154"/>
@@ -157,7 +157,7 @@
       <categoryLinks>
         <categoryLink name="Leader" hidden="false" id="9fd8-ad8b-807d-5902" targetId="3f98-9ca0-5510-889b"/>
         <categoryLink name="Ajutant" hidden="false" id="7284-c527-d7a8-2698" targetId="14f4-34d1-df54-e139"/>
-        <categoryLink name="Charakter" hidden="false" id="611f-caab-58f9-8054" targetId="1b7e-397a-03ee-6576"/>
+        <categoryLink name="Character" hidden="false" id="611f-caab-58f9-8054" targetId="1b7e-397a-03ee-6576"/>
         <categoryLink name="Wisperer" hidden="false" id="ce1f-5406-faef-1229" targetId="d9be-741a-50bd-bd74"/>
         <categoryLink name="Troop" hidden="false" id="2237-771c-d2a8-3951" targetId="fd22-fda8-ae83-4bd0"/>
         <categoryLink name="Wayfarer" hidden="false" id="9633-1102-a3dc-d2c1" targetId="517d-7965-7e3a-9154"/>
@@ -487,7 +487,7 @@ Template (Lagere)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="1762-5a0f-5d69-16d2" primary="false" name="Artefacter"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="c8bb-420e-fe7e-96fe" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="c8bb-420e-fe7e-96fe" primary="true" name="Character"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="624b-33d2-bb06-ad2b" primary="false" name="Scout"/>
       </categoryLinks>
       <infoLinks>
@@ -502,7 +502,7 @@ Template (Lagere)</characteristic>
       <categoryLinks>
         <categoryLink targetId="517d-7965-7e3a-9154" id="d29f-5826-d4bb-5d9c" primary="true" name="Wayfarer"/>
         <categoryLink targetId="4d5f-445c-2038-e055" id="c6c8-3724-5ec5-cc1a" primary="false" name="Medic"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="0db5-50ac-6839-e763" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="0db5-50ac-6839-e763" primary="false" name="Character"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8f65-1122-7186-3798" includeChildSelections="true"/>
@@ -559,7 +559,7 @@ Finite</characteristic>
       <categoryLinks>
         <categoryLink targetId="517d-7965-7e3a-9154" id="da9d-957a-ddfa-3fd0" primary="true" name="Wayfarer"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="5d62-1fb5-0edc-d5b2" primary="false" name="None"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="c494-7e62-f633-13f3" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="c494-7e62-f633-13f3" primary="false" name="Character"/>
       </categoryLinks>
       <costs>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="19"/>
@@ -653,7 +653,7 @@ Finite</characteristic>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="27d1-a56f-e95c-b3af" primary="false" name="Artefacter"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="35ce-9eb5-0d35-997f" primary="false" name="Scout"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="af85-664e-92ba-5eb0" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="af85-664e-92ba-5eb0" primary="true" name="Character"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="*Teardrop Ranged" id="5bd8-9212-8348-d21b" hidden="false" type="rule" targetId="fcb3-1078-58f8-e94c"/>
@@ -668,7 +668,7 @@ Finite</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="1380-3595-e4a0-ad86" primary="false" name="Artefacter"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="cfeb-d79f-2096-faea" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="cfeb-d79f-2096-faea" primary="true" name="Character"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="497d-aa52-0614-ef70" primary="false" name="Scout"/>
       </categoryLinks>
       <constraints>
@@ -722,7 +722,7 @@ Finite</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="6d1e-5638-399c-a680" primary="false" name="Artefacter"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="6242-903c-2b87-4243" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="6242-903c-2b87-4243" primary="true" name="Character"/>
         <categoryLink targetId="4d5f-445c-2038-e055" id="58ff-3b4b-b119-62d0" primary="false" name="Medic"/>
       </categoryLinks>
       <constraints>
@@ -776,7 +776,7 @@ Finite</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="35b4-a762-06fa-b711" primary="false" name="Artefacter"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="08e8-a9fb-a6b5-b60d" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="08e8-a9fb-a6b5-b60d" primary="true" name="Character"/>
         <categoryLink targetId="bd3b-5d1c-9728-168c" id="3b68-b1f1-0c74-68de" primary="false" name="Mech"/>
       </categoryLinks>
       <constraints>
@@ -834,7 +834,7 @@ Deviate (2)</characteristic>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="5f46-6daa-d6be-cc56" primary="false" name="Artefacter"/>
         <categoryLink targetId="b792-d288-e46c-a4c5" id="4fba-579a-4c45-5115" primary="false" name="Tough"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="2be3-b860-ff4b-a395" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="2be3-b860-ff4b-a395" primary="true" name="Character"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0536-504b-7f36-a90f" includeChildSelections="true"/>
@@ -891,7 +891,7 @@ Deviate (2)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="c8df-a081-7f73-2595" primary="false" name="Artefacter"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="5965-1c74-ad8e-2e27" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="5965-1c74-ad8e-2e27" primary="true" name="Character"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="5cfe-452c-a8db-1d97" primary="false" name="None"/>
       </categoryLinks>
       <profiles>
@@ -943,7 +943,7 @@ Pierce (1)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="1805-5966-8bcb-4cc7" primary="false" name="Artefacter"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="1c35-3892-6cc4-f731" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="1c35-3892-6cc4-f731" primary="true" name="Character"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="dc7d-cc6b-34e7-f582" primary="false" name="None"/>
       </categoryLinks>
       <constraints>
@@ -1163,7 +1163,7 @@ Finite</characteristic>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="64c4-9cc9-0e33-4aee" primary="false" name="Artefacter"/>
         <categoryLink targetId="d9be-741a-50bd-bd74" id="56ef-99bd-977c-4300" primary="false" name="Wisperer"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="4c9a-cd58-774a-7a86" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="4c9a-cd58-774a-7a86" primary="true" name="Character"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Clever Girl" id="f36c-b92c-e7c3-aab6" hidden="false" type="rule" targetId="377c-65aa-f41a-1493"/>
@@ -1180,7 +1180,7 @@ Finite</characteristic>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="339e-2ffb-31ea-52f3" primary="false" name="Artefacter"/>
         <categoryLink targetId="5719-a07d-261b-cd9a" id="a92f-a822-f315-c963" primary="false" name="Beasts"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="b57c-ba4e-dc3a-c192" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="b57c-ba4e-dc3a-c192" primary="true" name="Character"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="a8f7-89ca-3858-8ff6" primary="false" name="None"/>
       </categoryLinks>
       <modifiers>
@@ -2092,7 +2092,7 @@ Deviate (2)</characteristic>
       <categoryLinks>
         <categoryLink targetId="4d5f-445c-2038-e055" id="8306-be49-dbd2-f993" primary="false" name="Medic"/>
         <categoryLink targetId="517d-7965-7e3a-9154" id="4ec5-01c7-4fed-f252" primary="true" name="Wayfarer"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="abe5-50bf-9bb7-07ca" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="abe5-50bf-9bb7-07ca" primary="false" name="Character"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2179-f98a-0d55-c872" includeChildSelections="true"/>
@@ -2147,7 +2147,7 @@ Reach (1)</characteristic>
       <categoryLinks>
         <categoryLink targetId="517d-7965-7e3a-9154" id="79b2-dfb7-dd5d-678d" primary="true" name="Wayfarer"/>
         <categoryLink targetId="b792-d288-e46c-a4c5" id="f24b-d846-e13f-0dd9" primary="false" name="Tough"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="7d64-ec91-b97e-bfe5" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="7d64-ec91-b97e-bfe5" primary="false" name="Character"/>
       </categoryLinks>
       <costs>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="25"/>
@@ -2203,7 +2203,7 @@ Reach (1)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="517d-7965-7e3a-9154" id="c9b9-28e4-a5d9-1821" primary="true" name="Wayfarer"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="f19d-4043-d224-b194" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="f19d-4043-d224-b194" primary="false" name="Character"/>
         <categoryLink targetId="bd3b-5d1c-9728-168c" id="239b-7467-17a1-4511" primary="false" name="Mech"/>
       </categoryLinks>
       <constraints>
@@ -2254,7 +2254,7 @@ Reach (1)</characteristic>
     <selectionEntry type="model" import="true" name="Aronax" hidden="false" id="1e4a-3705-e6c1-8d42">
       <categoryLinks>
         <categoryLink targetId="517d-7965-7e3a-9154" id="32bf-db65-c24c-58a8" primary="true" name="Wayfarer"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="2c99-bd81-feb6-ec97" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="2c99-bd81-feb6-ec97" primary="false" name="Character"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="15e3-aedb-bf70-36f9" primary="false" name="Scout"/>
       </categoryLinks>
       <constraints>
@@ -2311,7 +2311,7 @@ Reach (1)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="517d-7965-7e3a-9154" id="c954-6fbd-b876-5df2" primary="true" name="Wayfarer"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="1cca-8c3a-c067-15b5" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="1cca-8c3a-c067-15b5" primary="false" name="Character"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="cbf4-feca-2cd8-bb36" primary="false" name="None"/>
       </categoryLinks>
       <constraints>
@@ -2625,7 +2625,7 @@ Natural</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="b792-d288-e46c-a4c5" id="3e97-6a57-d06d-f2e6" primary="false" name="Tough"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="3faa-ec39-8392-b466" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="3faa-ec39-8392-b466" primary="true" name="Character"/>
         <categoryLink targetId="f00f-af05-eb26-2539" id="10c3-d8ec-3ac5-b99a" primary="false" name="Corsair"/>
       </categoryLinks>
       <constraints>
@@ -2728,7 +2728,7 @@ Natural</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="f00f-af05-eb26-2539" id="b93b-4f27-9fc3-2f7b" primary="false" name="Corsair"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="8a27-069f-678f-78d3" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="8a27-069f-678f-78d3" primary="true" name="Character"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="5b50-9c7f-3f32-0587" primary="false" name="Scout"/>
       </categoryLinks>
     </selectionEntry>
@@ -2738,7 +2738,7 @@ Natural</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="f00f-af05-eb26-2539" id="486b-5e8a-5c3e-0ed5" primary="false" name="Corsair"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="7632-50c6-f63a-529a" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="7632-50c6-f63a-529a" primary="true" name="Character"/>
         <categoryLink targetId="bd3b-5d1c-9728-168c" id="576f-0442-1d16-ee28" primary="false" name="Mech"/>
       </categoryLinks>
       <constraints>
@@ -2793,7 +2793,7 @@ Sunder (3)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="f00f-af05-eb26-2539" id="aea0-87a0-eb64-82e1" primary="false" name="Corsair"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="d005-20b6-e486-8eca" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="d005-20b6-e486-8eca" primary="true" name="Character"/>
         <categoryLink targetId="4d5f-445c-2038-e055" id="7414-1993-194b-cfc1" primary="false" name="Medic"/>
       </categoryLinks>
       <constraints>
@@ -2848,7 +2848,7 @@ Sunder (3)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="f00f-af05-eb26-2539" id="9874-46f5-8f7c-ba97" primary="false" name="Corsair"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="dda7-a846-b66e-0ca4" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="dda7-a846-b66e-0ca4" primary="true" name="Character"/>
         <categoryLink targetId="b792-d288-e46c-a4c5" id="9d0c-b77b-5821-be19" primary="false" name="Tough"/>
       </categoryLinks>
       <constraints>
@@ -3026,7 +3026,7 @@ Natural</characteristic>
       <categoryLinks>
         <categoryLink targetId="f00f-af05-eb26-2539" id="37a3-fc38-5879-9449" primary="false" name="Corsair"/>
         <categoryLink targetId="d9be-741a-50bd-bd74" id="d52e-cc65-fe52-6a83" primary="false" name="Wisperer"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="289a-0962-75cf-fbd6" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="289a-0962-75cf-fbd6" primary="true" name="Character"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b5c5-53a9-6000-1641" includeChildSelections="true"/>
@@ -3083,7 +3083,7 @@ Natural</characteristic>
       <categoryLinks>
         <categoryLink targetId="5719-a07d-261b-cd9a" id="83b4-b09f-6efb-c2e9" primary="false" name="Beasts"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="1978-6ee3-5aec-1e81" primary="false" name="None"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="bbb6-f678-bade-4b44" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="bbb6-f678-bade-4b44" primary="true" name="Character"/>
       </categoryLinks>
       <profiles>
         <profile name="Sinoraptor - Corsair" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="fad9-f9b9-7d95-ca0e">
@@ -3515,7 +3515,7 @@ Natural</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="2bc3-fea8-5c32-5202" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="0e00-22ce-1d58-76f5" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="0e00-22ce-1d58-76f5" primary="true" name="Character"/>
         <categoryLink targetId="d9be-741a-50bd-bd74" id="0a8b-4bdc-97a5-cb36" primary="false" name="Wisperer"/>
       </categoryLinks>
       <constraints>
@@ -3620,7 +3620,7 @@ Knockdown</characteristic>
       </modifiers>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="b5aa-77c8-988b-05e9" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="a280-0edc-a634-40dd" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="a280-0edc-a634-40dd" primary="true" name="Character"/>
         <categoryLink targetId="5719-a07d-261b-cd9a" id="d438-77c0-e659-1695" primary="false" name="Beasts"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="4712-4215-4d09-5c19" primary="false" name="None"/>
       </categoryLinks>
@@ -3631,7 +3631,7 @@ Knockdown</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="d6ed-e433-5b45-cd8a" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="8b7f-21e1-41f0-fc96" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="8b7f-21e1-41f0-fc96" primary="true" name="Character"/>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="c871-bbc3-56fc-bf75" primary="false" name="Artefacter"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="50d7-9218-63be-6e4c" primary="false" name="Scout"/>
       </categoryLinks>
@@ -3688,7 +3688,7 @@ Template (Teardrop)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="0454-a6c1-04de-8841" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="6768-bc3b-fefb-2a59" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="6768-bc3b-fefb-2a59" primary="true" name="Character"/>
         <categoryLink targetId="b792-d288-e46c-a4c5" id="ecbe-8133-5c6c-2ba0" primary="false" name="Tough"/>
       </categoryLinks>
       <constraints>
@@ -3744,7 +3744,7 @@ Sunder (1)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="f9ba-4cad-b1f0-720c" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="10d7-82a2-3107-4634" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="10d7-82a2-3107-4634" primary="true" name="Character"/>
         <categoryLink targetId="4d5f-445c-2038-e055" id="4390-7030-8ee0-9d02" primary="false" name="Medic"/>
       </categoryLinks>
       <constraints>
@@ -3798,7 +3798,7 @@ Sunder (1)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="d034-db7e-b0a1-7b23" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="483a-8799-c038-6690" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="483a-8799-c038-6690" primary="true" name="Character"/>
         <categoryLink targetId="bd3b-5d1c-9728-168c" id="2d0f-2fd2-4a78-059b" primary="false" name="Mech"/>
       </categoryLinks>
       <constraints>
@@ -3854,7 +3854,7 @@ Tempalte (Large)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="5b87-fe8c-a3fe-ee76" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="e4ef-af7c-4ede-190e" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="e4ef-af7c-4ede-190e" primary="true" name="Character"/>
         <categoryLink targetId="4d5f-445c-2038-e055" id="74c3-3887-f33c-73a8" primary="false" name="Medic"/>
       </categoryLinks>
       <constraints>
@@ -3907,7 +3907,7 @@ Finite</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="69a9-3c76-0029-de7e" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="6bc9-e7f2-7d06-6418" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="6bc9-e7f2-7d06-6418" primary="true" name="Character"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="3cfe-8a2c-d1f3-b79f" primary="false" name="Scout"/>
       </categoryLinks>
       <constraints>
@@ -4241,7 +4241,7 @@ Pierce (2)</characteristic>
       <categoryLinks>
         <categoryLink targetId="3f98-9ca0-5510-889b" id="92e9-cfaa-03e8-4355" primary="true" name="Leader"/>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="f89b-9965-966c-7a18" primary="false" name="Militia"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="a936-70ff-bd29-cc98" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="a936-70ff-bd29-cc98" primary="false" name="Character"/>
       </categoryLinks>
       <profiles>
         <profile name="Mara" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="a2d0-5abc-6902-4d51">
@@ -4298,7 +4298,7 @@ Spray</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="ae80-7ffd-7d1d-d324" primary="false" name="Militia"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="c2ad-9834-2de5-cba1" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="c2ad-9834-2de5-cba1" primary="true" name="Character"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="b1b5-28b0-97b4-b75b" primary="false" name="Scout"/>
       </categoryLinks>
       <constraints>
@@ -4352,7 +4352,7 @@ Spray</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="37c3-c2c5-89f6-ecd8" primary="false" name="Militia"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="06a7-f131-d516-841a" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="06a7-f131-d516-841a" primary="true" name="Character"/>
         <categoryLink targetId="b792-d288-e46c-a4c5" id="124c-05dc-ba31-b8c2" primary="false" name="Tough"/>
       </categoryLinks>
       <constraints>
@@ -4407,7 +4407,7 @@ Spray</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="7ee8-00ad-04f0-22d8" primary="false" name="Militia"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="783a-bb37-f21b-9d40" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="783a-bb37-f21b-9d40" primary="true" name="Character"/>
         <categoryLink targetId="4d5f-445c-2038-e055" id="c20c-0b4c-542a-fa0f" primary="false" name="Medic"/>
       </categoryLinks>
       <constraints>
@@ -4461,7 +4461,7 @@ Spray</characteristic>
       </constraints>
       <categoryLinks>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="193d-a120-59d9-5e78" primary="false" name="Militia"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="e725-1db8-749d-37cc" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="e725-1db8-749d-37cc" primary="true" name="Character"/>
         <categoryLink targetId="bd3b-5d1c-9728-168c" id="48df-b99d-0052-4fe1" primary="false" name="Mech"/>
       </categoryLinks>
       <profiles>
@@ -4514,7 +4514,7 @@ Spray</characteristic>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="10"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="681a-7a32-83ae-3b74" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="681a-7a32-83ae-3b74" primary="true" name="Character"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="30f5-e1d6-042a-5ca1" primary="false" name="None"/>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="95c1-20c3-fc86-212c" primary="false" name="Militia"/>
       </categoryLinks>
@@ -4571,7 +4571,7 @@ Slow(2/3)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="c054-a270-cbac-50f5" primary="false" name="Militia"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="4cc7-5946-e89e-bffa" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="4cc7-5946-e89e-bffa" primary="true" name="Character"/>
         <categoryLink targetId="bd3b-5d1c-9728-168c" id="ec11-84e5-9d7b-ca47" primary="false" name="Mech"/>
       </categoryLinks>
       <constraints>
@@ -4626,7 +4626,7 @@ Slow (1/2)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="7028-adde-48aa-41e3" primary="false" name="Militia"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="2821-731b-083c-4334" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="2821-731b-083c-4334" primary="true" name="Character"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="34d4-aaf6-3017-9411" primary="false" name="None"/>
       </categoryLinks>
       <constraints>
@@ -4799,7 +4799,7 @@ Pierce (!)</characteristic>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="15"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="0547-f014-fb33-7cab" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="0547-f014-fb33-7cab" primary="true" name="Character"/>
         <categoryLink targetId="d9be-741a-50bd-bd74" id="e47e-1164-0e74-f3b9" primary="false" name="Wisperer"/>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="f3e4-25b2-6205-4f65" primary="false" name="Militia"/>
       </categoryLinks>
@@ -4854,7 +4854,7 @@ Pierce (!)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="5719-a07d-261b-cd9a" id="f3ba-d8d7-e70d-20a7" primary="false" name="Beasts"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="5ce2-e580-25b1-bc2d" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="5ce2-e580-25b1-bc2d" primary="true" name="Character"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="7c94-2948-bea8-9189" primary="false" name="None"/>
       </categoryLinks>
       <constraints>
@@ -4917,7 +4917,7 @@ Natural</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="6fa8-c5c9-bcd1-b60f" primary="false" name="Firm"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="ce09-a7dc-153a-1bed" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="ce09-a7dc-153a-1bed" primary="false" name="Character"/>
         <categoryLink targetId="d9be-741a-50bd-bd74" id="d44d-63e9-6c45-f7f0" primary="true" name="Wisperer"/>
       </categoryLinks>
       <constraints>
@@ -5020,7 +5020,7 @@ Natural</characteristic>
     <selectionEntry type="model" import="true" name="Kaneda" hidden="false" id="7b54-97c2-9467-618c">
       <categoryLinks>
         <categoryLink targetId="3f98-9ca0-5510-889b" id="df92-cdf1-04fd-1550" primary="true" name="Leader"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="1835-deae-2094-0d07" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="1835-deae-2094-0d07" primary="false" name="Character"/>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="b432-9f4f-0b66-f3e3" primary="false" name="Firm"/>
       </categoryLinks>
       <constraints>
@@ -5088,7 +5088,7 @@ Natural</characteristic>
       </constraints>
       <categoryLinks>
         <categoryLink targetId="3f98-9ca0-5510-889b" id="a89f-dba9-4f93-890a" primary="true" name="Leader"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="ba8b-42c2-41aa-a40b" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="ba8b-42c2-41aa-a40b" primary="false" name="Character"/>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="f1ef-3480-5be0-f367" primary="false" name="Firm"/>
       </categoryLinks>
       <costs>
@@ -5206,7 +5206,7 @@ Reach (2)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="3f98-9ca0-5510-889b" id="44c5-8733-5355-e35e" primary="true" name="Leader"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="7889-6a86-6ac5-5a50" primary="false" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="7889-6a86-6ac5-5a50" primary="false" name="Character"/>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="9ab1-ab90-cdb1-55c1" primary="false" name="Firm"/>
       </categoryLinks>
       <constraints>
@@ -5268,7 +5268,7 @@ Stun (1)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="84c1-3344-f0b1-4f82" primary="false" name="Firm"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="844b-9e6f-4a2a-099f" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="844b-9e6f-4a2a-099f" primary="true" name="Character"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="373a-972a-2b01-bc03" primary="false" name="Scout"/>
       </categoryLinks>
       <constraints>
@@ -5322,7 +5322,7 @@ Pierce (1)</characteristic>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="22"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="7958-4800-393f-e00d" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="7958-4800-393f-e00d" primary="true" name="Character"/>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="efc8-3ec3-03f1-0d37" primary="false" name="Firm"/>
         <categoryLink targetId="b792-d288-e46c-a4c5" id="6438-0ac5-69ad-bab2" primary="false" name="Tough"/>
       </categoryLinks>
@@ -5378,7 +5378,7 @@ Pierce (1)</characteristic>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="21"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="aaf8-5495-2161-ef67" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="aaf8-5495-2161-ef67" primary="true" name="Character"/>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="167e-adbc-41a9-a363" primary="false" name="Firm"/>
         <categoryLink targetId="4d5f-445c-2038-e055" id="0d2b-099a-2e85-ee78" primary="false" name="Medic"/>
       </categoryLinks>
@@ -5434,7 +5434,7 @@ Pierce (1)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="3d45-e55f-3ee2-8e04" primary="false" name="Firm"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="66d5-f198-bc62-7d01" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="66d5-f198-bc62-7d01" primary="true" name="Character"/>
         <categoryLink targetId="bd3b-5d1c-9728-168c" id="3dbd-5133-9cf6-2641" primary="false" name="Mech"/>
       </categoryLinks>
       <constraints>
@@ -5489,7 +5489,7 @@ Template (Teardrop)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="da4b-c9c3-090b-cd28" primary="false" name="Firm"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="5f10-2132-ac56-eacc" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="5f10-2132-ac56-eacc" primary="true" name="Character"/>
         <categoryLink targetId="bd3b-5d1c-9728-168c" id="21bf-7ceb-f419-7866" primary="false" name="Mech"/>
       </categoryLinks>
       <constraints>
@@ -5549,7 +5549,7 @@ Deviate (1)</characteristic>
       <categoryLinks>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="f6f6-e3bd-973c-f0c7" primary="false" name="Firm"/>
         <categoryLink targetId="b792-d288-e46c-a4c5" id="a5d0-13b2-4317-71bf" primary="false" name="Tough"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="d18d-f3a0-a8ac-6624" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="d18d-f3a0-a8ac-6624" primary="true" name="Character"/>
       </categoryLinks>
       <profiles>
         <profile name="Makko" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="f420-fb48-4439-bfce">
@@ -5605,7 +5605,7 @@ Knockdown</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="1d8b-e55b-7346-38b8" primary="false" name="Firm"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="d220-a657-c59a-606a" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="d220-a657-c59a-606a" primary="true" name="Character"/>
         <categoryLink targetId="8e56-16be-81c7-b34c" id="e6ed-4a14-bfe1-19dc" primary="false" name="Scout"/>
       </categoryLinks>
       <constraints>
@@ -5660,7 +5660,7 @@ Pierce (1)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="9a44-22b3-2553-de9d" id="21df-8b96-1e82-fbb0" primary="false" name="Firm"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="7257-5937-ba86-1ef7" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="7257-5937-ba86-1ef7" primary="true" name="Character"/>
         <categoryLink targetId="4d5f-445c-2038-e055" id="43f5-d367-7967-f626" primary="false" name="Medic"/>
       </categoryLinks>
       <constraints>
