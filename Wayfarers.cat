@@ -1,40 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="b283-5fe6-6b1c-e0f5" name="Wayfarers" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink import="true" name="Wishbone Leader" hidden="false" id="e2d1-e9c8-fe29-a6a9" type="selectionEntry" targetId="2586-51fe-bfe0-65cc"/>
+    <entryLink import="true" name="Wishbone" hidden="false" id="e2d1-e9c8-fe29-a6a9" type="selectionEntry" targetId="2586-51fe-bfe0-65cc">
+      <comment>Leader</comment>
+    </entryLink>
     <entryLink import="true" name="Kalhana" hidden="false" id="46dd-dea1-4694-e965" type="selectionEntry" targetId="306a-31ea-849c-57fa">
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="bb02-3334-142c-b0b9" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="bb02-3334-142c-b0b9" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Aronax" hidden="false" id="875c-1e28-dd46-061c" type="selectionEntry" targetId="1e4a-3705-e6c1-8d42">
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="f8b8-a80c-e540-f484" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="f8b8-a80c-e540-f484" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Bluewing" hidden="false" id="a058-8428-0f84-d81f" type="selectionEntry" targetId="f1dd-96d2-fb6a-38b0">
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="c264-21fc-3251-160c" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="c264-21fc-3251-160c" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="LLiana" hidden="false" id="a7a5-2b71-509a-2253" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b">
+    <entryLink import="true" name="Lliana" hidden="false" id="a7a5-2b71-509a-2253" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b">
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="dd33-6727-037d-2c1b" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="dd33-6727-037d-2c1b" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Ryuza" hidden="false" id="daa5-105e-55c8-9cbd" type="selectionEntry" targetId="e16d-bdac-e487-5937">
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="99c7-aa93-0ef9-4381" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="99c7-aa93-0ef9-4381" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Arabelle" hidden="false" id="d81b-e0e9-4fef-b6c6" type="selectionEntry" targetId="bcc3-5f28-8af7-3c5f">
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="9e84-49dd-7c12-2e35" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="9e84-49dd-7c12-2e35" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Grayze" hidden="false" id="1d05-b739-84b0-6ef4" type="selectionEntry" targetId="cd0b-ab44-07aa-7b8f">
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="0ab5-00af-377c-d134" primary="true" name="Charakter"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="0ab5-00af-377c-d134" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Mach" hidden="false" id="ac86-e669-66ed-b431" type="selectionEntry" targetId="f135-78f5-64d4-ffdb">

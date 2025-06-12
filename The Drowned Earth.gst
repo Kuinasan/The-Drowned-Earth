@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-45d8-568f-21de-b0db" name="The Drowned Earth" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-45d8-568f-21de-b0db" name="The Drowned Earth" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Leader" id="3f98-9ca0-5510-889b" hidden="false">
       <constraints>
@@ -13,6 +13,17 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile name="Leader" typeId="baaf-566c-442c-4886" typeName="4.1 Abilities" hidden="true" id="8662-5bad-85d9-bac8">
+          <characteristics>
+            <characteristic name="Blunder" typeId="0711-1909-6705-6d3c">The leader simply confuses the situation! Discard 1AP from the Donor Model. The Leader Model may make no more Command Orders for the remainder of this Turn.</characteristic>
+            <characteristic name="Fail" typeId="ab7c-281c-839c-cb5e">The Command attempt is a failure and nothing happens. The Leader Model may make no more Command Orders for the remainder of this Turn.</characteristic>
+            <characteristic name="Pass" typeId="c901-1f87-3bfa-7776">Move 1 AP from the Donor to the Recipient Model.</characteristic>
+            <characteristic name="&quot;Nailed It&quot;" typeId="a032-0796-789f-4b9a">Move 1 or 2 AP from the Donor to the Recipient Model.</characteristic>
+            <characteristic name="Feat" typeId="6853-ebd7-bb97-35f1">Counts as a “Nailed It” result, and additionally you will receive an Action Point at the end of the Activation Sequence.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </categoryEntry>
     <categoryEntry name="Artefacter" id="8054-2cee-ada8-5b2c" hidden="false"/>
     <categoryEntry name="Cavalry" id="026f-72e1-f1fc-a568" hidden="false"/>
@@ -63,9 +74,42 @@
     <categoryEntry name="Militia" id="e582-a1d1-be57-2ca9" hidden="false"/>
     <categoryEntry name="Bondsman" id="92f0-db32-a432-335b" hidden="false"/>
     <categoryEntry name="Character" id="1b7e-397a-03ee-6576" hidden="false"/>
-    <categoryEntry name="Scout" id="8e56-16be-81c7-b34c" hidden="false"/>
-    <categoryEntry name="Medic" id="4d5f-445c-2038-e055" hidden="false"/>
-    <categoryEntry name="Mech" id="bd3b-5d1c-9728-168c" hidden="false"/>
+    <categoryEntry name="Scout" id="8e56-16be-81c7-b34c" hidden="false">
+      <profiles>
+        <profile name="Scout" typeId="9f74-881a-bcee-cbb6" typeName="4.1 Abilities" hidden="true" id="afdb-9225-b8a3-5f9a">
+          <characteristics>
+            <characteristic typeId="3eaf-1214-8a5e-8294">All Scout Models have the Infiltrate Ability.
+Infiltrate is a special deployment rule designed for scenario play. Each scenario will explain exactly how and when Models with the Infiltrate Ability deploy in that scenario.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </categoryEntry>
+    <categoryEntry name="Medic" id="4d5f-445c-2038-e055" hidden="false">
+      <profiles>
+        <profile name="Medic" typeId="baaf-566c-442c-4886" typeName="4.1 Abilities" hidden="true" id="659f-056c-91d5-1745">
+          <characteristics>
+            <characteristic name="Blunder" typeId="0711-1909-6705-6d3c">That didn’t go well. The target Model takes 1 Wound.</characteristic>
+            <characteristic name="Fail" typeId="ab7c-281c-839c-cb5e">The Heal attempt is a failure and nothing happens.</characteristic>
+            <characteristic name="Pass" typeId="c901-1f87-3bfa-7776">The Target Model gains 1 Wounds.</characteristic>
+            <characteristic name="&quot;Nailed It&quot;" typeId="a032-0796-789f-4b9a">The Target Model gains 2 Wounds.</characteristic>
+            <characteristic name="Feat" typeId="6853-ebd7-bb97-35f1">This Model immediately gains 1AP and use the “Nailed It” result above.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </categoryEntry>
+    <categoryEntry name="Mech" id="bd3b-5d1c-9728-168c" hidden="false">
+      <profiles>
+        <profile name="Mech" typeId="baaf-566c-442c-4886" typeName="4.1 Abilities" hidden="true" id="0285-06cc-8d1c-9ea1">
+          <characteristics>
+            <characteristic name="Blunder" typeId="0711-1909-6705-6d3c">You broke it! The Weapon is beyond a field repair job, and cannot be used for the remainder of the game.</characteristic>
+            <characteristic name="Fail" typeId="ab7c-281c-839c-cb5e">It’s more tricky than it looks. You’ll have to try again. Nothing happens.</characteristic>
+            <characteristic name="Pass" typeId="c901-1f87-3bfa-7776">You did it! The Weapon can be used as normal. Remove the Jam Token.</characteristic>
+            <characteristic name="&quot;Nailed It&quot;" typeId="a032-0796-789f-4b9a">You did it! The Weapon can be used as normal. Remove the Jam Token.</characteristic>
+            <characteristic name="Feat" typeId="6853-ebd7-bb97-35f1">This Model immediately gains 1AP and use the “Nailed It” result above.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </categoryEntry>
     <categoryEntry name="Tough" id="b792-d288-e46c-a4c5" hidden="false"/>
     <categoryEntry name="None" id="abee-c8fa-7d77-0605" hidden="false"/>
     <categoryEntry name="Wisperer" id="d9be-741a-50bd-bd74" hidden="false"/>
@@ -102,6 +146,11 @@
       </constraints>
     </categoryEntry>
     <categoryEntry name="Wayfarer/Corsair Leader" id="81af-9ff5-4232-aae3" hidden="true"/>
+    <categoryEntry name="HQ" id="072d-cf6a-31b3-1df1" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="838a-2fc3-0d5e-604f" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Skirmish 100" id="5bc9-3b44-ee43-2652" hidden="false">
@@ -117,6 +166,7 @@
         <categoryLink name="Wayfarer" hidden="false" id="7673-f44e-beba-64c0" targetId="517d-7965-7e3a-9154"/>
         <categoryLink name="Corsair" hidden="false" id="0c5a-7e8a-2ab0-1dbc" targetId="f00f-af05-eb26-2539"/>
         <categoryLink name="Beasts" hidden="false" id="fb3b-b822-b818-02e4" targetId="5719-a07d-261b-cd9a"/>
+        <categoryLink name="HQ" hidden="false" id="69dd-948b-6b88-9c2e" targetId="072d-cf6a-31b3-1df1"/>
       </categoryLinks>
       <profiles>
         <profile name="Skirmish 100" typeId="1270-4144-c976-8678" typeName="6.1 Game Sizes" hidden="false" id="3704-9925-3d96-4492">
@@ -124,6 +174,13 @@
             <characteristic name="Game Sizes" typeId="e6b6-4115-6853-3bdb">Small Game</characteristic>
             <characteristic name="Amount of Wayfarer" typeId="d0a9-e331-9887-367f">1</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="∞" field="d0a9-e331-9887-367f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="81af-9ff5-4232-aae3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
     </forceEntry>
@@ -147,6 +204,13 @@
             <characteristic name="Game Sizes" typeId="e6b6-4115-6853-3bdb">Regular Game</characteristic>
             <characteristic name="Amount of Wayfarer" typeId="d0a9-e331-9887-367f">2</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="∞" field="d0a9-e331-9887-367f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="81af-9ff5-4232-aae3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
     </forceEntry>
@@ -170,6 +234,13 @@
             <characteristic name="Game Sizes" typeId="e6b6-4115-6853-3bdb">Large Game</characteristic>
             <characteristic name="Amount of Wayfarer" typeId="d0a9-e331-9887-367f">3</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="∞" field="d0a9-e331-9887-367f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="81af-9ff5-4232-aae3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
     </forceEntry>
@@ -178,7 +249,7 @@
     <costType name="Points" id="aebb-a9e8-4e59-11a0" defaultCostLimit="-1"/>
   </costTypes>
   <profileTypes>
-    <profileType name="1.2 Attributes" id="Attributes" hidden="false">
+    <profileType name="1.2 Attributes" id="Attributes" hidden="false" sortIndex="2">
       <characteristicTypes>
         <characteristicType name="Closed Combat" id="e5fe-4c56-5cb2-327a"/>
         <characteristicType name="Marksmanship" id="049c-fb7d-85c4-944c"/>
@@ -188,7 +259,7 @@
         <characteristicType name="Armor" id="ffb5-9d6f-6af3-fac0"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="1.1 Stats" id="efbf-5850-8ce3-5093" hidden="false">
+    <profileType name="1.1 Stats" id="efbf-5850-8ce3-5093" hidden="false" sortIndex="1">
       <characteristicTypes>
         <characteristicType name="AP" id="dd84-5007-92d8-88d0"/>
         <characteristicType name="Speed" id="dd97-6ee0-3d45-67d0"/>
@@ -197,14 +268,14 @@
         <characteristicType name="Line of Sight Template" id="a564-06c6-f082-bea8"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="2.1 Cavalry Stats" id="5e07-d31e-bc1e-4bec" hidden="false">
+    <profileType name="2.1 Cavalry Stats" id="5e07-d31e-bc1e-4bec" hidden="false" sortIndex="3">
       <characteristicTypes>
         <characteristicType name="Thougness" id="0ac6-cf54-1213-2b4f"/>
         <characteristicType name="Armor" id="b5de-db55-bfe5-902a"/>
         <characteristicType name="Wound" id="27b7-4253-c0cf-73bd"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="3.1 Range Combat" id="b269-73e1-78d6-7356" hidden="false">
+    <profileType name="3.1 Range Combat" id="b269-73e1-78d6-7356" hidden="false" sortIndex="4">
       <characteristicTypes>
         <characteristicType name="Weapon" id="3fa7-d45c-32d1-ef0a"/>
         <characteristicType name="Rng" id="2006-b280-cd47-9291"/>
@@ -212,7 +283,7 @@
         <characteristicType name="Special" id="405b-77a1-1ef8-c2c6"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="3.2 Close Combat" id="5da8-5490-00f9-b59f" hidden="false">
+    <profileType name="3.2 Close Combat" id="5da8-5490-00f9-b59f" hidden="false" sortIndex="5">
       <characteristicTypes>
         <characteristicType name="Weapon" id="5bc1-02f0-932a-14c2"/>
         <characteristicType name="Rng" id="5d38-4f19-c227-6e2a"/>
@@ -220,26 +291,40 @@
         <characteristicType name="Special" id="8d64-1476-8b60-c53a"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="5.1 Leader Ability" id="fd19-1665-75a1-274a" hidden="false">
+    <profileType name="5.1 Leader Ability" id="fd19-1665-75a1-274a" hidden="false" sortIndex="8">
       <characteristicTypes>
         <characteristicType name="Restriction" id="a8ee-a49e-a809-51c3"/>
         <characteristicType name="Description" id="08bf-f1d8-adb8-c04d"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="5.2 Effect Card" id="5ef9-785f-2d2b-5de2" hidden="false">
+    <profileType name="5.2 Effect Card" id="5ef9-785f-2d2b-5de2" hidden="false" sortIndex="9">
       <characteristicTypes>
         <characteristicType name="Effect" id="40c6-c223-451a-7776"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="6.1 Game Sizes" id="1270-4144-c976-8678" hidden="false">
+    <profileType name="6.1 Game Sizes" id="1270-4144-c976-8678" hidden="false" sortIndex="10">
       <characteristicTypes>
         <characteristicType name="Game Sizes" id="e6b6-4115-6853-3bdb"/>
         <characteristicType name="Amount of Wayfarer" id="d0a9-e331-9887-367f"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="9.0 Trivia" id="4729-dd1d-0c84-935e" hidden="false">
+    <profileType name="9.0 Trivia" id="4729-dd1d-0c84-935e" hidden="false" sortIndex="11">
       <characteristicTypes>
         <characteristicType name="Trivia" id="67d0-7896-1558-21ff"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="4.1 Abilities" id="baaf-566c-442c-4886" hidden="false" sortIndex="6">
+      <characteristicTypes>
+        <characteristicType name="Blunder" id="0711-1909-6705-6d3c"/>
+        <characteristicType name="Fail" id="ab7c-281c-839c-cb5e"/>
+        <characteristicType name="Pass" id="c901-1f87-3bfa-7776"/>
+        <characteristicType name="&quot;Nailed It&quot;" id="a032-0796-789f-4b9a"/>
+        <characteristicType name="Feat" id="6853-ebd7-bb97-35f1"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="4.1 Abilities" id="9f74-881a-bcee-cbb6" hidden="false" sortIndex="7">
+      <characteristicTypes>
+        <characteristicType id="3eaf-1214-8a5e-8294"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -1951,7 +2036,6 @@ Knockdown</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">5</characteristic>
           </characteristics>
-          <comment>Der Begriff &quot;Thagomizer&quot; bezieht sich auf die vier Zacken am Schwanz des Stegosaurus. Der Name ist inspiriert von einem &quot;Far Side&quot;-Cartoon, in dem ein Höhlenmensch den Schwanz eines Stegosaurus nach &quot;dem verstorbenen Thag Simmons&quot; benennt. Diese Stacheln dienten vermutlich der Verteidigung, indem sie Feinde verwunden konnten.</comment>
         </profile>
         <profile name="Ankylo" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="98ba-ef5f-3e17-2bd5">
           <characteristics>
@@ -1965,8 +2049,9 @@ Reach (3)</characteristic>
         </profile>
         <profile name="Ankylo" typeId="4729-dd1d-0c84-935e" typeName="9.0 Trivia" hidden="false" id="fc74-2c65-c81c-40c8">
           <characteristics>
-            <characteristic name="Trivia" typeId="67d0-7896-1558-21ff">Der Begriff &quot;Thagomizer&quot; bezieht sich auf die vier Zacken am Schwanz des Stegosaurus. Der Name ist inspiriert von einem &quot;Far Side&quot;-Cartoon, in dem ein Höhlenmensch den Schwanz eines Stegosaurus nach &quot;dem verstorbenen Thag Simmons&quot; benennt. Diese Stacheln dienten vermutlich der Verteidigung, indem sie Feinde verwunden konnten.</characteristic>
+            <characteristic name="Trivia" typeId="67d0-7896-1558-21ff">The term &quot;thagomizer&quot; was coined by cartoonist Gary Larson in humor, in a 1982 Far Side comic strip, in which a group of cavemen in a faux-modern lecture hall are taught by their caveman professor that the spikes on a Stegosaur&apos;s tail are so named &quot;after the late Thag Simmons&quot;.</characteristic>
           </characteristics>
+          <comment>Der Begriff &quot;Thagomizer&quot; bezieht sich auf die vier Zacken am Schwanz des Stegosaurus. Der Name ist inspiriert von einem &quot;Far Side&quot;-Cartoon, in dem ein Höhlenmensch den Schwanz eines Stegosaurus nach &quot;dem verstorbenen Thag Simmons&quot; benennt. Diese Stacheln dienten vermutlich der Verteidigung, indem sie Feinde verwunden konnten.</comment>
         </profile>
       </profiles>
       <infoLinks>
@@ -2358,7 +2443,7 @@ Reach (1)</characteristic>
         <infoLink name="Quickshot" id="aa11-ce99-32f8-b95a" hidden="false" type="rule" targetId="76cd-7a75-b244-6855"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Wishbone Leader" hidden="false" id="2586-51fe-bfe0-65cc">
+    <selectionEntry type="model" import="true" name="Wishbone" hidden="false" id="2586-51fe-bfe0-65cc">
       <costs>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="22"/>
       </costs>
@@ -2416,6 +2501,7 @@ Deviate (2)</characteristic>
         <entryLink import="true" name="Effect Crads" hidden="false" id="d939-bc35-2487-4896" type="selectionEntryGroup" targetId="c556-38c5-bdbb-a248"/>
         <entryLink import="true" name="Leader Ability" hidden="false" id="6788-d3f9-12ba-dca5" type="selectionEntryGroup" targetId="242c-3a09-b0a9-e783"/>
       </entryLinks>
+      <comment>Leader</comment>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Jay" hidden="false" id="c450-d16e-61e4-9069">
       <categoryLinks>
@@ -4054,7 +4140,7 @@ Finite</characteristic>
       <modifiers>
         <modifier type="decrement" value="2" field="aebb-a9e8-4e59-11a0">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="7762-157c-3068-5253" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
