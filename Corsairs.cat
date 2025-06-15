@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3a32-e140-7a62-435c" name="Corsairs" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3a32-e140-7a62-435c" name="Corsairs" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="3" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink import="true" name="Jay" hidden="false" id="d1aa-7c3a-11da-c55c" type="selectionEntry" targetId="c450-d16e-61e4-9069"/>
     <entryLink import="true" name="Dahu" hidden="false" id="4b98-16f7-d124-8e05" type="selectionEntry" targetId="13a6-711d-167b-0468"/>
@@ -18,8 +18,8 @@
     <entryLink import="true" name="Kalhana" hidden="false" id="01ba-9ae6-f563-0a97" type="selectionEntry" targetId="306a-31ea-849c-57fa"/>
     <entryLink import="true" name="Bluewing" hidden="false" id="45d6-2ab9-8f78-f7b1" type="selectionEntry" targetId="f1dd-96d2-fb6a-38b0"/>
     <entryLink import="true" name="Ryuza" hidden="false" id="9511-6a03-7b62-76f0" type="selectionEntry" targetId="e16d-bdac-e487-5937"/>
-    <entryLink import="true" name="LLiana" hidden="false" id="6159-705c-9973-bc6c" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b"/>
-    <entryLink import="true" name="Arrabelle" hidden="false" id="df7e-9c20-d092-d502" type="selectionEntry" targetId="bcc3-5f28-8af7-3c5f"/>
+    <entryLink import="true" name="Lliana" hidden="false" id="6159-705c-9973-bc6c" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b"/>
+    <entryLink import="true" name="Arabelle" hidden="false" id="df7e-9c20-d092-d502" type="selectionEntry" targetId="bcc3-5f28-8af7-3c5f"/>
     <entryLink import="true" name="Troodon" hidden="false" id="f91e-fa9c-5c1e-e36f" type="selectionEntry" targetId="03ec-59f7-c914-bb84"/>
     <entryLink import="true" name="Yuttaraptor - Alpha" hidden="false" id="f6b7-f2f3-75db-8ad9" type="selectionEntry" targetId="ed98-cd53-d78b-5a93"/>
     <entryLink import="true" name="Domehead" hidden="false" id="c454-fa62-3d3a-8c4c" type="selectionEntry" targetId="352d-fe8e-223c-f784"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-45d8-568f-21de-b0db" name="The Drowned Earth" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-45d8-568f-21de-b0db" name="The Drowned Earth" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Leader" id="3f98-9ca0-5510-889b" hidden="false">
       <constraints>
@@ -160,13 +160,13 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
       <categoryLinks>
         <categoryLink name="Leader" hidden="false" id="3596-0a61-8692-90fb" targetId="3f98-9ca0-5510-889b"/>
         <categoryLink name="Ajutant" hidden="false" id="5b5e-a167-ee21-5284" targetId="14f4-34d1-df54-e139"/>
-        <categoryLink name="Character" hidden="false" id="e390-7479-40e5-888c" targetId="1b7e-397a-03ee-6576"/>
-        <categoryLink name="Wisperer" hidden="false" id="9547-e16c-9600-ab3c" targetId="d9be-741a-50bd-bd74"/>
-        <categoryLink name="Troop" hidden="false" id="9a80-dac2-f6e2-fcc1" targetId="fd22-fda8-ae83-4bd0"/>
-        <categoryLink name="Wayfarer" hidden="false" id="7673-f44e-beba-64c0" targetId="517d-7965-7e3a-9154"/>
-        <categoryLink name="Corsair" hidden="false" id="0c5a-7e8a-2ab0-1dbc" targetId="f00f-af05-eb26-2539"/>
-        <categoryLink name="Beasts" hidden="false" id="fb3b-b822-b818-02e4" targetId="5719-a07d-261b-cd9a"/>
         <categoryLink name="HQ" hidden="false" id="69dd-948b-6b88-9c2e" targetId="072d-cf6a-31b3-1df1"/>
+        <categoryLink name="Character" hidden="false" id="880c-b461-9482-8fe1" targetId="1b7e-397a-03ee-6576" type="categoryEntry"/>
+        <categoryLink name="Wisperer" hidden="false" id="8e5e-9c52-d4e3-45d1" targetId="d9be-741a-50bd-bd74"/>
+        <categoryLink name="Troop" hidden="false" id="9ee0-ed79-ae1f-b342" targetId="fd22-fda8-ae83-4bd0"/>
+        <categoryLink name="Wayfarer" hidden="false" id="e299-9ca7-3b9f-0b3c" targetId="517d-7965-7e3a-9154"/>
+        <categoryLink name="Corsair" hidden="false" id="9621-39af-1eab-abbd" targetId="f00f-af05-eb26-2539"/>
+        <categoryLink name="Beasts" hidden="false" id="7805-d7cf-be5c-1620" targetId="5719-a07d-261b-cd9a"/>
       </categoryLinks>
       <profiles>
         <profile name="Skirmish 100" typeId="1270-4144-c976-8678" typeName="6.1 Game Sizes" hidden="false" id="3704-9925-3d96-4492">
@@ -191,12 +191,13 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
       <categoryLinks>
         <categoryLink name="Leader" hidden="false" id="d757-4c58-89e2-5ec8" targetId="3f98-9ca0-5510-889b"/>
         <categoryLink name="Ajutant" hidden="false" id="619d-593e-a5b3-63f5" targetId="14f4-34d1-df54-e139"/>
-        <categoryLink name="Character" hidden="false" id="2d47-13ce-cf69-e85c" targetId="1b7e-397a-03ee-6576"/>
-        <categoryLink name="Wisperer" hidden="false" id="6ebe-a0d9-1a98-10fe" targetId="d9be-741a-50bd-bd74"/>
-        <categoryLink name="Troop" hidden="false" id="71f9-7630-d432-f92b" targetId="fd22-fda8-ae83-4bd0"/>
-        <categoryLink name="Wayfarer" hidden="false" id="de65-746e-efae-fb39" targetId="517d-7965-7e3a-9154"/>
-        <categoryLink name="Corsair" hidden="false" id="aa2c-10e0-1e16-0b2e" targetId="f00f-af05-eb26-2539"/>
-        <categoryLink name="Beasts" hidden="false" id="3864-c1cf-65f8-d7f9" targetId="5719-a07d-261b-cd9a"/>
+        <categoryLink name="HQ" hidden="false" id="abe7-58ee-43fd-c69d" targetId="072d-cf6a-31b3-1df1"/>
+        <categoryLink name="Character" hidden="false" id="1312-a648-35a5-0f28" targetId="1b7e-397a-03ee-6576"/>
+        <categoryLink name="Wisperer" hidden="false" id="8d05-b387-6734-829c" targetId="d9be-741a-50bd-bd74"/>
+        <categoryLink name="Troop" hidden="false" id="047f-0040-64c4-3bf4" targetId="fd22-fda8-ae83-4bd0"/>
+        <categoryLink name="Wayfarer" hidden="false" id="c789-39e2-8e5b-5b15" targetId="517d-7965-7e3a-9154"/>
+        <categoryLink name="Corsair" hidden="false" id="5cee-3a0b-da37-5382" targetId="f00f-af05-eb26-2539"/>
+        <categoryLink name="Beasts" hidden="false" id="7e6f-7e04-a1f5-c41d" targetId="5719-a07d-261b-cd9a"/>
       </categoryLinks>
       <profiles>
         <profile name="Skirmish 125" typeId="1270-4144-c976-8678" typeName="6.1 Game Sizes" hidden="false" id="7000-7912-7c30-2042">
@@ -221,12 +222,13 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
       <categoryLinks>
         <categoryLink name="Leader" hidden="false" id="9fd8-ad8b-807d-5902" targetId="3f98-9ca0-5510-889b"/>
         <categoryLink name="Ajutant" hidden="false" id="7284-c527-d7a8-2698" targetId="14f4-34d1-df54-e139"/>
-        <categoryLink name="Character" hidden="false" id="611f-caab-58f9-8054" targetId="1b7e-397a-03ee-6576"/>
-        <categoryLink name="Wisperer" hidden="false" id="ce1f-5406-faef-1229" targetId="d9be-741a-50bd-bd74"/>
-        <categoryLink name="Troop" hidden="false" id="2237-771c-d2a8-3951" targetId="fd22-fda8-ae83-4bd0"/>
-        <categoryLink name="Wayfarer" hidden="false" id="9633-1102-a3dc-d2c1" targetId="517d-7965-7e3a-9154"/>
-        <categoryLink name="Corsair" hidden="false" id="e69f-38c1-f641-4266" targetId="f00f-af05-eb26-2539"/>
-        <categoryLink name="Beasts" hidden="false" id="3a28-e5c0-34e5-99b8" targetId="5719-a07d-261b-cd9a"/>
+        <categoryLink name="HQ" hidden="false" id="3e8c-6908-7300-80ee" targetId="072d-cf6a-31b3-1df1"/>
+        <categoryLink name="Character" hidden="false" id="7809-dbfb-ed6d-a458" targetId="1b7e-397a-03ee-6576"/>
+        <categoryLink name="Wisperer" hidden="false" id="5144-d154-58b6-814f" targetId="d9be-741a-50bd-bd74"/>
+        <categoryLink name="Troop" hidden="false" id="1665-d9dd-9302-08e1" targetId="fd22-fda8-ae83-4bd0"/>
+        <categoryLink name="Wayfarer" hidden="false" id="c7ac-4520-a046-d85b" targetId="517d-7965-7e3a-9154"/>
+        <categoryLink name="Corsair" hidden="false" id="e606-3f52-fbbe-02b4" targetId="f00f-af05-eb26-2539"/>
+        <categoryLink name="Beasts" hidden="false" id="de49-edb9-5bff-cefa" targetId="5719-a07d-261b-cd9a"/>
       </categoryLinks>
       <profiles>
         <profile name="Skirmish 150" typeId="1270-4144-c976-8678" typeName="6.1 Game Sizes" hidden="false" id="ef31-6b70-b7f1-d7fb">
@@ -244,12 +246,43 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         </profile>
       </profiles>
     </forceEntry>
+    <forceEntry name="Skirmish 75" id="a4f9-1cb9-4400-eb50" hidden="false">
+      <costs>
+        <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Leader" hidden="false" id="0f58-cc1c-ba37-34ed" targetId="3f98-9ca0-5510-889b"/>
+        <categoryLink name="Ajutant" hidden="false" id="ebab-dd7d-81dc-4f44" targetId="14f4-34d1-df54-e139"/>
+        <categoryLink name="HQ" hidden="false" id="85bd-44f6-4a11-51e8" targetId="072d-cf6a-31b3-1df1"/>
+        <categoryLink name="Character" hidden="false" id="f2c3-d9ac-ef29-c085" targetId="1b7e-397a-03ee-6576"/>
+        <categoryLink name="Wisperer" hidden="false" id="51d7-9cd2-879e-faa9" targetId="d9be-741a-50bd-bd74"/>
+        <categoryLink name="Troop" hidden="false" id="6133-0cfd-56c3-09b7" targetId="fd22-fda8-ae83-4bd0"/>
+        <categoryLink name="Corsair" hidden="false" id="d168-c4f4-9559-5b7c" targetId="f00f-af05-eb26-2539"/>
+        <categoryLink name="Beasts" hidden="false" id="bb0a-2b6e-851d-f749" targetId="5719-a07d-261b-cd9a"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Skirmish 75" typeId="1270-4144-c976-8678" typeName="6.1 Game Sizes" hidden="false" id="1f82-0c66-03b3-383e">
+          <characteristics>
+            <characteristic name="Game Sizes" typeId="e6b6-4115-6853-3bdb">Small Game</characteristic>
+            <characteristic name="Amount of Wayfarer" typeId="d0a9-e331-9887-367f">0</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="∞" field="d0a9-e331-9887-367f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="81af-9ff5-4232-aae3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </forceEntry>
   </forceEntries>
   <costTypes>
     <costType name="Points" id="aebb-a9e8-4e59-11a0" defaultCostLimit="-1"/>
+    <costType name="NRG" id="82ce-b197-96bc-0e06" defaultCostLimit="-1" hidden="true"/>
   </costTypes>
   <profileTypes>
-    <profileType name="1.2 Attributes" id="Attributes" hidden="false" sortIndex="2">
+    <profileType name="1.2 Attributes" id="Attributes" hidden="false" sortIndex="3">
       <characteristicTypes>
         <characteristicType name="Closed Combat" id="e5fe-4c56-5cb2-327a"/>
         <characteristicType name="Marksmanship" id="049c-fb7d-85c4-944c"/>
@@ -268,14 +301,14 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         <characteristicType name="Line of Sight Template" id="a564-06c6-f082-bea8"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="2.1 Cavalry Stats" id="5e07-d31e-bc1e-4bec" hidden="false" sortIndex="3">
+    <profileType name="2.1 Cavalry Stats" id="5e07-d31e-bc1e-4bec" hidden="false" sortIndex="4">
       <characteristicTypes>
         <characteristicType name="Thougness" id="0ac6-cf54-1213-2b4f"/>
         <characteristicType name="Armor" id="b5de-db55-bfe5-902a"/>
         <characteristicType name="Wound" id="27b7-4253-c0cf-73bd"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="3.1 Range Combat" id="b269-73e1-78d6-7356" hidden="false" sortIndex="4">
+    <profileType name="3.1 Range Combat" id="b269-73e1-78d6-7356" hidden="false" sortIndex="5">
       <characteristicTypes>
         <characteristicType name="Weapon" id="3fa7-d45c-32d1-ef0a"/>
         <characteristicType name="Rng" id="2006-b280-cd47-9291"/>
@@ -283,7 +316,7 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         <characteristicType name="Special" id="405b-77a1-1ef8-c2c6"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="3.2 Close Combat" id="5da8-5490-00f9-b59f" hidden="false" sortIndex="5">
+    <profileType name="3.2 Close Combat" id="5da8-5490-00f9-b59f" hidden="false" sortIndex="6">
       <characteristicTypes>
         <characteristicType name="Weapon" id="5bc1-02f0-932a-14c2"/>
         <characteristicType name="Rng" id="5d38-4f19-c227-6e2a"/>
@@ -291,29 +324,29 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         <characteristicType name="Special" id="8d64-1476-8b60-c53a"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="5.1 Leader Ability" id="fd19-1665-75a1-274a" hidden="false" sortIndex="8">
+    <profileType name="5.1 Leader Ability" id="fd19-1665-75a1-274a" hidden="false" sortIndex="9">
       <characteristicTypes>
         <characteristicType name="Restriction" id="a8ee-a49e-a809-51c3"/>
         <characteristicType name="Description" id="08bf-f1d8-adb8-c04d"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="5.2 Effect Card" id="5ef9-785f-2d2b-5de2" hidden="false" sortIndex="9">
+    <profileType name="5.2 Effect Card" id="5ef9-785f-2d2b-5de2" hidden="false" sortIndex="10">
       <characteristicTypes>
         <characteristicType name="Effect" id="40c6-c223-451a-7776"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="6.1 Game Sizes" id="1270-4144-c976-8678" hidden="false" sortIndex="10">
+    <profileType name="6.1 Game Sizes" id="1270-4144-c976-8678" hidden="false" sortIndex="11">
       <characteristicTypes>
         <characteristicType name="Game Sizes" id="e6b6-4115-6853-3bdb"/>
         <characteristicType name="Amount of Wayfarer" id="d0a9-e331-9887-367f"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="9.0 Trivia" id="4729-dd1d-0c84-935e" hidden="false" sortIndex="11">
+    <profileType name="9.0 Trivia" id="4729-dd1d-0c84-935e" hidden="false" sortIndex="14">
       <characteristicTypes>
         <characteristicType name="Trivia" id="67d0-7896-1558-21ff"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="4.1 Abilities" id="baaf-566c-442c-4886" hidden="false" sortIndex="6">
+    <profileType name="4.1 Abilities" id="baaf-566c-442c-4886" hidden="false" sortIndex="7">
       <characteristicTypes>
         <characteristicType name="Blunder" id="0711-1909-6705-6d3c"/>
         <characteristicType name="Fail" id="ab7c-281c-839c-cb5e"/>
@@ -322,9 +355,32 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         <characteristicType name="Feat" id="6853-ebd7-bb97-35f1"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="4.1 Abilities" id="9f74-881a-bcee-cbb6" hidden="false" sortIndex="7">
+    <profileType name="4.1 Abilities" id="9f74-881a-bcee-cbb6" hidden="false" sortIndex="8">
       <characteristicTypes>
         <characteristicType id="3eaf-1214-8a5e-8294"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="1.1 Stats HQ" id="e195-4ea1-e1be-cf73" hidden="false" sortIndex="2">
+      <characteristicTypes>
+        <characteristicType name="AP" id="6e8b-4b41-508f-68cb"/>
+        <characteristicType name="Speed" id="5062-2c01-f0cc-3ae2"/>
+        <characteristicType name="NRG" id="caf2-f3e6-5c16-3f5a"/>
+        <characteristicType name="Rest" id="46a3-d38c-af83-8727"/>
+        <characteristicType name="Line of Sight Template" id="6970-bb92-8b82-fb87"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="7.1 Passiv Buff" id="e9f2-ff86-81b3-0fbb" hidden="false" sortIndex="12">
+      <characteristicTypes>
+        <characteristicType name="Name" id="b1ec-cf01-104d-42b7"/>
+        <characteristicType name="Effect" id="8ad1-ead3-b656-62e6"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="7.2 HQ Ability" id="655a-95e9-1d8b-e37c" hidden="false" sortIndex="13">
+      <characteristicTypes>
+        <characteristicType name="Name" id="4ea0-a74d-ae08-c061"/>
+        <characteristicType name="NRG" id="6b46-bc73-2602-65ca"/>
+        <characteristicType name="Timing" id="831d-5b59-987a-6332"/>
+        <characteristicType name="Effect" id="4642-b2d7-6da1-1c52"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -5915,6 +5971,95 @@ Flame (2)</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Crash" hidden="true" id="d72f-99d6-3276-435a">
+      <categoryLinks>
+        <categoryLink targetId="f00f-af05-eb26-2539" id="4d11-7281-ab83-d741" primary="false" name="Corsair"/>
+        <categoryLink targetId="072d-cf6a-31b3-1df1" id="72e4-2c32-2e7f-ec4a" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="309a-836a-50f1-0a1b" includeChildSelections="true"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="aebb-a9e8-4e59-11a0" value="25"/>
+        <cost name="NRG" typeId="82ce-b197-96bc-0e06" value="25"/>
+      </costs>
+      <profiles>
+        <profile name="Crash" typeId="e195-4ea1-e1be-cf73" typeName="1.1 Stats HQ" hidden="false" id="7b27-e2fd-3112-52c0">
+          <characteristics>
+            <characteristic name="AP" typeId="6e8b-4b41-508f-68cb">2 (2)</characteristic>
+            <characteristic name="Speed" typeId="5062-2c01-f0cc-3ae2">6</characteristic>
+            <characteristic name="NRG" typeId="caf2-f3e6-5c16-3f5a">25</characteristic>
+            <characteristic name="Rest" typeId="46a3-d38c-af83-8727">9</characteristic>
+            <characteristic name="Line of Sight Template" typeId="6970-bb92-8b82-fb87">TLOS</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crash" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="9ca0-b0f7-4119-92ac">
+          <characteristics>
+            <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">3</characteristic>
+            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
+            <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
+            <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crash" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="3248-9b2f-d93f-139b">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Flipper Slap (Weapon A)</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">2/4</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Reach (1)
+Stun (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crash" typeId="5da8-5490-00f9-b59f" typeName="3.2 Close Combat" hidden="false" id="b78b-a41a-ebaf-f205">
+          <characteristics>
+            <characteristic name="Weapon" typeId="5bc1-02f0-932a-14c2">Deck Cannon (Weapon B)</characteristic>
+            <characteristic name="Rng" typeId="5d38-4f19-c227-6e2a">-</characteristic>
+            <characteristic name="Dmg" typeId="6612-a472-26c6-c47d">4/4</characteristic>
+            <characteristic name="Special" typeId="8d64-1476-8b60-c53a">Knockdown</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crash" typeId="e9f2-ff86-81b3-0fbb" typeName="7.1 Passiv Buff" hidden="false" id="fb6f-1b14-05f8-c230">
+          <characteristics>
+            <characteristic name="Name" typeId="b1ec-cf01-104d-42b7">📡Crow’s Nest</characteristic>
+            <characteristic name="Effect" typeId="8ad1-ead3-b656-62e6">Friendly models within 6” of Crash ignore Soft Cover when targeting enemy models that Crash has Line of Sight to</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crash" typeId="655a-95e9-1d8b-e37c" typeName="7.3 HQ Ability" hidden="false" id="3e92-4195-6f51-d6b7">
+          <characteristics>
+            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">💣 Cannonade </characteristic>
+            <characteristic name="NRG" typeId="6b46-bc73-2602-65ca">3</characteristic>
+            <characteristic name="Timing" typeId="831d-5b59-987a-6332">Declare Phase</characteristic>
+            <characteristic name="Effect" typeId="4642-b2d7-6da1-1c52">Place two Small Templates within 10” and Line of Sight. These become Blast Craters (Difficult Terrain) until the end of turn. They do not block Line of Sight and may overlap models or terrain.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crash" typeId="655a-95e9-1d8b-e37c" typeName="7.3 HQ Ability" hidden="false" id="5619-5411-ddd6-ca08">
+          <characteristics>
+            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🌊 Wave Surge </characteristic>
+            <characteristic name="NRG" typeId="6b46-bc73-2602-65ca">4</characteristic>
+            <characteristic name="Timing" typeId="831d-5b59-987a-6332">Declare Phase</characteristic>
+            <characteristic name="Effect" typeId="4642-b2d7-6da1-1c52">All models within 6” of Crash are Pushed directly away until at least 6” away or blocked. No Damage or Reactions. Stops at nearest legal position.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crash" typeId="655a-95e9-1d8b-e37c" typeName="7.3 HQ Ability" hidden="false" id="1430-a237-b5a6-7cbb">
+          <characteristics>
+            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🛍️ Zakk’s Mark </characteristic>
+            <characteristic name="NRG" typeId="6b46-bc73-2602-65ca">3</characteristic>
+            <characteristic name="Timing" typeId="831d-5b59-987a-6332">Declare Phase</characteristic>
+            <characteristic name="Effect" typeId="4642-b2d7-6da1-1c52">Choose an enemy model within 12” and LoS. Until Crash becomes Stressed, Friendly models gain +1 Marksmanship when shooting that model.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crash" typeId="655a-95e9-1d8b-e37c" typeName="7.3 HQ Ability" hidden="false" id="8be9-4f46-8ed8-773e">
+          <characteristics>
+            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🪛 Deckwork Discipline </characteristic>
+            <characteristic name="NRG" typeId="6b46-bc73-2602-65ca">3</characteristic>
+            <characteristic name="Timing" typeId="831d-5b59-987a-6332">Declare Phase</characteristic>
+            <characteristic name="Effect" typeId="4642-b2d7-6da1-1c52">Choose one Friendly model within 6”. It may immediately perform an Interact Action. This does not cost AP and does not break Stealth.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
