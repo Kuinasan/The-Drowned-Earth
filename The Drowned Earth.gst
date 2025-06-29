@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-45d8-568f-21de-b0db" name="The Drowned Earth" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-45d8-568f-21de-b0db" name="The Drowned Earth" battleScribeVersion="2.03" revision="5" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Leader" id="3f98-9ca0-5510-889b" hidden="false">
       <constraints>
@@ -161,7 +161,7 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         <categoryLink name="Leader" hidden="false" id="3596-0a61-8692-90fb" targetId="3f98-9ca0-5510-889b"/>
         <categoryLink name="Ajutant" hidden="false" id="5b5e-a167-ee21-5284" targetId="14f4-34d1-df54-e139"/>
         <categoryLink name="HQ" hidden="false" id="69dd-948b-6b88-9c2e" targetId="072d-cf6a-31b3-1df1"/>
-        <categoryLink name="Character" hidden="false" id="880c-b461-9482-8fe1" targetId="1b7e-397a-03ee-6576" type="categoryEntry"/>
+        <categoryLink name="Character" hidden="false" id="880c-b461-9482-8fe1" targetId="1b7e-397a-03ee-6576"/>
         <categoryLink name="Wisperer" hidden="false" id="8e5e-9c52-d4e3-45d1" targetId="d9be-741a-50bd-bd74"/>
         <categoryLink name="Troop" hidden="false" id="9ee0-ed79-ae1f-b342" targetId="fd22-fda8-ae83-4bd0"/>
         <categoryLink name="Wayfarer" hidden="false" id="e299-9ca7-3b9f-0b3c" targetId="517d-7965-7e3a-9154"/>
@@ -1303,8 +1303,8 @@ Finite</characteristic>
       </profiles>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="64c4-9cc9-0e33-4aee" primary="false" name="Artefacter"/>
-        <categoryLink targetId="d9be-741a-50bd-bd74" id="56ef-99bd-977c-4300" primary="false" name="Wisperer"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="4c9a-cd58-774a-7a86" primary="true" name="Character"/>
+        <categoryLink targetId="d9be-741a-50bd-bd74" id="56ef-99bd-977c-4300" primary="true" name="Wisperer"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="4c9a-cd58-774a-7a86" primary="false" name="Character"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Clever Girl" id="f36c-b92c-e7c3-aab6" hidden="false" type="rule" targetId="377c-65aa-f41a-1493"/>
@@ -1321,8 +1321,8 @@ Finite</characteristic>
       <categoryLinks>
         <categoryLink targetId="8054-2cee-ada8-5b2c" id="339e-2ffb-31ea-52f3" primary="false" name="Artefacter"/>
         <categoryLink targetId="5719-a07d-261b-cd9a" id="a92f-a822-f315-c963" primary="false" name="Beasts"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="b57c-ba4e-dc3a-c192" primary="true" name="Character"/>
-        <categoryLink targetId="abee-c8fa-7d77-0605" id="a8f7-89ca-3858-8ff6" primary="false" name="None"/>
+        <categoryLink targetId="d9be-741a-50bd-bd74" id="b562-a695-e4fa-ccc8" primary="true" name="Wisperer"/>
+        <categoryLink targetId="abee-c8fa-7d77-0605" id="0952-1f08-36ba-eca0" primary="false" name="None"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -3167,8 +3167,8 @@ Natural</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="f00f-af05-eb26-2539" id="37a3-fc38-5879-9449" primary="false" name="Corsair"/>
-        <categoryLink targetId="d9be-741a-50bd-bd74" id="d52e-cc65-fe52-6a83" primary="false" name="Wisperer"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="289a-0962-75cf-fbd6" primary="true" name="Character"/>
+        <categoryLink targetId="d9be-741a-50bd-bd74" id="d52e-cc65-fe52-6a83" primary="true" name="Wisperer"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="289a-0962-75cf-fbd6" primary="false" name="Character"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b5c5-53a9-6000-1641" includeChildSelections="true"/>
@@ -3225,7 +3225,8 @@ Natural</characteristic>
       <categoryLinks>
         <categoryLink targetId="5719-a07d-261b-cd9a" id="83b4-b09f-6efb-c2e9" primary="false" name="Beasts"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="1978-6ee3-5aec-1e81" primary="false" name="None"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="bbb6-f678-bade-4b44" primary="true" name="Character"/>
+        <categoryLink targetId="f00f-af05-eb26-2539" id="5df9-2d50-d8ab-03b5" primary="false" name="Corsair"/>
+        <categoryLink targetId="d9be-741a-50bd-bd74" id="4717-1f39-79be-7a94" primary="true" name="Wisperer"/>
       </categoryLinks>
       <profiles>
         <profile name="Sinoraptor - Corsair" typeId="efbf-5850-8ce3-5093" typeName="1.1 Stats" hidden="false" id="fad9-f9b9-7d95-ca0e">
@@ -3657,8 +3658,8 @@ Natural</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="2bc3-fea8-5c32-5202" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="0e00-22ce-1d58-76f5" primary="true" name="Character"/>
-        <categoryLink targetId="d9be-741a-50bd-bd74" id="0a8b-4bdc-97a5-cb36" primary="false" name="Wisperer"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="0e00-22ce-1d58-76f5" primary="false" name="Character"/>
+        <categoryLink targetId="d9be-741a-50bd-bd74" id="0a8b-4bdc-97a5-cb36" primary="true" name="Wisperer"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cc8f-086e-8072-62d8" includeChildSelections="true"/>
@@ -3762,9 +3763,9 @@ Knockdown</characteristic>
       </modifiers>
       <categoryLinks>
         <categoryLink targetId="92f0-db32-a432-335b" id="b5aa-77c8-988b-05e9" primary="false" name="Bondsman"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="a280-0edc-a634-40dd" primary="true" name="Character"/>
         <categoryLink targetId="5719-a07d-261b-cd9a" id="d438-77c0-e659-1695" primary="false" name="Beasts"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="4712-4215-4d09-5c19" primary="false" name="None"/>
+        <categoryLink targetId="d9be-741a-50bd-bd74" id="271a-9344-a483-688a" primary="true" name="Wisperer"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Gersla" hidden="false" id="6711-7b64-8984-549d">
@@ -4941,8 +4942,8 @@ Pierce (!)</characteristic>
         <cost name="Punkte" typeId="aebb-a9e8-4e59-11a0" value="15"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="0547-f014-fb33-7cab" primary="true" name="Character"/>
-        <categoryLink targetId="d9be-741a-50bd-bd74" id="e47e-1164-0e74-f3b9" primary="false" name="Wisperer"/>
+        <categoryLink targetId="1b7e-397a-03ee-6576" id="0547-f014-fb33-7cab" primary="false" name="Character"/>
+        <categoryLink targetId="d9be-741a-50bd-bd74" id="e47e-1164-0e74-f3b9" primary="true" name="Wisperer"/>
         <categoryLink targetId="e582-a1d1-be57-2ca9" id="f3e4-25b2-6205-4f65" primary="false" name="Militia"/>
       </categoryLinks>
       <constraints>
@@ -4996,8 +4997,9 @@ Pierce (!)</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="5719-a07d-261b-cd9a" id="f3ba-d8d7-e70d-20a7" primary="false" name="Beasts"/>
-        <categoryLink targetId="1b7e-397a-03ee-6576" id="5ce2-e580-25b1-bc2d" primary="true" name="Character"/>
         <categoryLink targetId="abee-c8fa-7d77-0605" id="7c94-2948-bea8-9189" primary="false" name="None"/>
+        <categoryLink targetId="d9be-741a-50bd-bd74" id="3d97-0b3d-ac61-008d" primary="true" name="Wisperer"/>
+        <categoryLink targetId="e582-a1d1-be57-2ca9" id="65c4-05f7-0a76-4bc4" primary="false" name="Militia"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="05b3-3eec-94b2-d9db" includeChildSelections="true"/>
@@ -6029,7 +6031,7 @@ Stun (1)</characteristic>
         </profile>
         <profile name="Crash" typeId="655a-95e9-1d8b-e37c" typeName="7.3 HQ Ability" hidden="false" id="3e92-4195-6f51-d6b7">
           <characteristics>
-            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">💣 Cannonade </characteristic>
+            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">💣 Cannonade</characteristic>
             <characteristic name="NRG" typeId="6b46-bc73-2602-65ca">3</characteristic>
             <characteristic name="Timing" typeId="831d-5b59-987a-6332">Declare Phase</characteristic>
             <characteristic name="Effect" typeId="4642-b2d7-6da1-1c52">Place two Small Templates within 10” and Line of Sight. These become Blast Craters (Difficult Terrain) until the end of turn. They do not block Line of Sight and may overlap models or terrain.</characteristic>
@@ -6037,7 +6039,7 @@ Stun (1)</characteristic>
         </profile>
         <profile name="Crash" typeId="655a-95e9-1d8b-e37c" typeName="7.3 HQ Ability" hidden="false" id="5619-5411-ddd6-ca08">
           <characteristics>
-            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🌊 Wave Surge </characteristic>
+            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🌊 Wave Surge</characteristic>
             <characteristic name="NRG" typeId="6b46-bc73-2602-65ca">4</characteristic>
             <characteristic name="Timing" typeId="831d-5b59-987a-6332">Declare Phase</characteristic>
             <characteristic name="Effect" typeId="4642-b2d7-6da1-1c52">All models within 6” of Crash are Pushed directly away until at least 6” away or blocked. No Damage or Reactions. Stops at nearest legal position.</characteristic>
@@ -6045,7 +6047,7 @@ Stun (1)</characteristic>
         </profile>
         <profile name="Crash" typeId="655a-95e9-1d8b-e37c" typeName="7.3 HQ Ability" hidden="false" id="1430-a237-b5a6-7cbb">
           <characteristics>
-            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🛍️ Zakk’s Mark </characteristic>
+            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🛍️ Zakk’s Mark</characteristic>
             <characteristic name="NRG" typeId="6b46-bc73-2602-65ca">3</characteristic>
             <characteristic name="Timing" typeId="831d-5b59-987a-6332">Declare Phase</characteristic>
             <characteristic name="Effect" typeId="4642-b2d7-6da1-1c52">Choose an enemy model within 12” and LoS. Until Crash becomes Stressed, Friendly models gain +1 Marksmanship when shooting that model.</characteristic>
@@ -6053,7 +6055,7 @@ Stun (1)</characteristic>
         </profile>
         <profile name="Crash" typeId="655a-95e9-1d8b-e37c" typeName="7.3 HQ Ability" hidden="false" id="8be9-4f46-8ed8-773e">
           <characteristics>
-            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🪛 Deckwork Discipline </characteristic>
+            <characteristic name="Name" typeId="4ea0-a74d-ae08-c061">🪛 Deckwork Discipline</characteristic>
             <characteristic name="NRG" typeId="6b46-bc73-2602-65ca">3</characteristic>
             <characteristic name="Timing" typeId="831d-5b59-987a-6332">Declare Phase</characteristic>
             <characteristic name="Effect" typeId="4642-b2d7-6da1-1c52">Choose one Friendly model within 6”. It may immediately perform an Interact Action. This does not cost AP and does not break Stealth.</characteristic>
