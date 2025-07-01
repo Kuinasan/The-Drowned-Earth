@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9374-a3fc-f912-8dd3" name="Bondsmen" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9374-a3fc-f912-8dd3" name="Bondsmen" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink import="true" name="Hakana" hidden="false" id="49fb-c647-5b0e-6af0" type="selectionEntry" targetId="802c-b68a-416a-53f2"/>
     <entryLink import="true" name="Limossk" hidden="false" id="e40b-cd39-46d7-f477" type="selectionEntry" targetId="027c-2d72-2557-ddcc"/>
@@ -21,12 +21,12 @@
     <entryLink import="true" name="Ravanna" hidden="false" id="ca6f-7790-bffb-9571" type="selectionEntry" targetId="96b3-dbee-f623-1822"/>
     <entryLink import="true" name="Wishbone" hidden="false" id="0cd3-8fdf-bc86-98bf" type="selectionEntry" targetId="605b-944d-3588-b0ac"/>
     <entryLink import="true" name="Shield" hidden="false" id="fb9a-7f36-8d09-ff76" type="selectionEntry" targetId="44b0-6c51-d463-0b38"/>
-    <entryLink import="true" name="Arrabelle" hidden="false" id="f9dd-5558-7e05-798a" type="selectionEntry" targetId="bcc3-5f28-8af7-3c5f"/>
+    <entryLink import="true" name="Arabelle" hidden="false" id="f9dd-5558-7e05-798a" type="selectionEntry" targetId="bcc3-5f28-8af7-3c5f"/>
     <entryLink import="true" name="Kalhana" hidden="false" id="0bf7-ca6e-d6e8-3b3e" type="selectionEntry" targetId="306a-31ea-849c-57fa"/>
     <entryLink import="true" name="Grayze" hidden="false" id="88c9-c07e-520e-96df" type="selectionEntry" targetId="cd0b-ab44-07aa-7b8f"/>
     <entryLink import="true" name="Bluewing" hidden="false" id="2b6b-090a-6a01-ccaa" type="selectionEntry" targetId="f1dd-96d2-fb6a-38b0"/>
     <entryLink import="true" name="Aronax" hidden="false" id="a2ec-170d-4235-3449" type="selectionEntry" targetId="1e4a-3705-e6c1-8d42"/>
-    <entryLink import="true" name="LLiana" hidden="false" id="d355-17d9-08df-abde" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b"/>
+    <entryLink import="true" name="Lliana" hidden="false" id="d355-17d9-08df-abde" type="selectionEntry" targetId="2469-ddf6-ea4e-b42b"/>
     <entryLink import="true" name="Ryuza" hidden="false" id="cc79-b449-79b2-2c7f" type="selectionEntry" targetId="e16d-bdac-e487-5937"/>
     <entryLink import="true" name="Yuttaraptor - Alpha" hidden="false" id="34c8-e2b8-5a7e-671c" type="selectionEntry" targetId="ed98-cd53-d78b-5a93"/>
     <entryLink import="true" name="Yuttaraptor" hidden="false" id="845b-1199-97a9-c6a9" type="selectionEntry" targetId="ef20-f23a-2cb5-6122"/>

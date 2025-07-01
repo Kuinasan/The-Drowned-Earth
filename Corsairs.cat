@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3a32-e140-7a62-435c" name="Corsairs" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="3" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3a32-e140-7a62-435c" name="Corsairs" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="3" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" hidden="false">
   <entryLinks>
     <entryLink import="true" name="Jay" hidden="false" id="d1aa-7c3a-11da-c55c" type="selectionEntry" targetId="c450-d16e-61e4-9069"/>
     <entryLink import="true" name="Dahu" hidden="false" id="4b98-16f7-d124-8e05" type="selectionEntry" targetId="13a6-711d-167b-0468"/>

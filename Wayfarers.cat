@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="b283-5fe6-6b1c-e0f5" name="Wayfarers" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="b283-5fe6-6b1c-e0f5" name="Wayfarers" gameSystemId="sys-45d8-568f-21de-b0db" gameSystemRevision="3" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink import="true" name="Wishbone" hidden="false" id="e2d1-e9c8-fe29-a6a9" type="selectionEntry" targetId="2586-51fe-bfe0-65cc">
       <comment>Leader</comment>
