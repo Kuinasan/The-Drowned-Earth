@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-45d8-568f-21de-b0db" name="The Drowned Earth" battleScribeVersion="2.03" revision="6" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-45d8-568f-21de-b0db" name="The Drowned Earth" battleScribeVersion="2.03" revision="7" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Leader" id="3f98-9ca0-5510-889b" hidden="false">
       <constraints>
@@ -285,8 +285,8 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
     <profileType name="1.2 Attributes" id="Attributes" hidden="false" sortIndex="3">
       <characteristicTypes>
         <characteristicType name="Closed Combat" id="e5fe-4c56-5cb2-327a"/>
-        <characteristicType name="Marksmanship" id="049c-fb7d-85c4-944c"/>
-        <characteristicType name="Agility" id="7d44-682a-1f07-9660"/>
+        <characteristicType name="Agility" id="049c-fb7d-85c4-944c"/>
+        <characteristicType name="Marksmanship" id="7d44-682a-1f07-9660"/>
         <characteristicType name="Inteligence" id="ccc1-32b6-5489-8e08"/>
         <characteristicType name="Thougness" id="6454-547e-a032-0594"/>
         <characteristicType name="Armor" id="ffb5-9d6f-6af3-fac0"/>
@@ -410,8 +410,8 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         <profile name="Nix" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="3842-be78-8489-318e">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -478,8 +478,8 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         <profile name="Nix Mounted" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="2457-3127-e9eb-297a">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -551,8 +551,8 @@ Infiltrate is a special deployment rule designed for scenario play. Each scenari
         <profile name="Playdge" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="3bd5-683c-dd96-e90c">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">8</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -599,8 +599,8 @@ Template (Lagere)</characteristic>
         <profile name="Slethssk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="148b-5094-6d37-b413">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -661,8 +661,8 @@ Template (Lagere)</characteristic>
         <profile name="Arabelle" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="7434-6def-4624-ab90">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -718,8 +718,8 @@ Finite</characteristic>
         <profile name="LLiana" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="27f8-a600-2e89-f6ff">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -764,8 +764,8 @@ Finite</characteristic>
         <profile name="Tidala" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="ee0c-0fa2-3b51-974a">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -828,8 +828,8 @@ Finite</characteristic>
         <profile name="Ando" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="117a-3283-a326-5da8">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -882,8 +882,8 @@ Finite</characteristic>
         <profile name="Corian" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="ccd1-7d99-5f9c-cc68">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -936,8 +936,8 @@ Finite</characteristic>
         <profile name="Ana" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="84c6-b198-3638-0882">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -993,8 +993,8 @@ Deviate (2)</characteristic>
         <profile name="Sage" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="1fa2-03d9-fc65-947c">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -1048,8 +1048,8 @@ Deviate (2)</characteristic>
         <profile name="Kohua" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="05a6-a080-dab7-86c8">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -1103,8 +1103,8 @@ Pierce (1)</characteristic>
         <profile name="Romi" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c820-09f2-8c9b-788b">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -1159,8 +1159,8 @@ Pierce (1)</characteristic>
         <profile name="Pathfinder" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="feff-825d-c290-e62b">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0"/>
@@ -1217,8 +1217,8 @@ Pierce (1)</characteristic>
         <profile name="Dig Security" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="131a-9853-a407-4455">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -1274,8 +1274,8 @@ Pierce (1)</characteristic>
         <profile name="Lyra" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="ae87-dcc6-10f0-5667">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -1349,8 +1349,8 @@ Finite</characteristic>
         <profile name="Troodon - Lyra" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="ddba-7e21-bf60-bae7">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -1397,8 +1397,8 @@ Sunder (1)</characteristic>
         <profile name="Magnasor - Alpha" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="a8e0-071f-5ef7-5538">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -1441,8 +1441,8 @@ Sunder (1)</characteristic>
         <profile name="Magnasor - Alpha" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c26c-0eab-25f5-772e">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -1485,8 +1485,8 @@ Sunder (1)</characteristic>
         <profile name="Oviraptor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="fc92-3288-f801-648b">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -1548,8 +1548,8 @@ Sunder (1)</characteristic>
         <profile name="Troodon" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="5eae-cd23-780d-8cb9">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -1594,8 +1594,8 @@ Sunder (1)</characteristic>
         <profile name="Troodon" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="f99f-136c-b35d-3162">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -1640,8 +1640,8 @@ Sunder (1)</characteristic>
         <profile name="Yuttaraptor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="0fc0-f5d7-dbee-b8de">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -1685,8 +1685,8 @@ Sunder (1)</characteristic>
         <profile name="Yuttaraptor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="3e7d-2c0e-730f-f691">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -1730,8 +1730,8 @@ Sunder (1)</characteristic>
         <profile name="Domehead" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="ad6f-83e7-5221-69bc">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -1782,8 +1782,8 @@ Knockdown</characteristic>
         <profile name="Dilophosor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="8feb-835f-9f72-1942">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -1836,8 +1836,8 @@ Natural</characteristic>
         <profile name="Dilophosor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c828-ff7f-9135-5a77">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -1892,8 +1892,8 @@ Natural</characteristic>
         <profile name="Sinoraptor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c3a0-dddd-2da7-e6ed">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">3</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -1937,8 +1937,8 @@ Natural</characteristic>
         <profile name="Sinoraptor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="b8b0-bc27-c367-58ba">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">3</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -1993,8 +1993,8 @@ Natural</characteristic>
         <profile name="Baryonyx" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="7b3f-f165-6fc8-18e7">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -2032,8 +2032,8 @@ Natural</characteristic>
         <profile name="Ceratops" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="eb69-4564-34e6-ac7d">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">4</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">4</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">3</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">3</characteristic>
@@ -2086,8 +2086,8 @@ Knockdown</characteristic>
         <profile name="Ankylo" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="bead-b859-5591-2812">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">2</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">2</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">3</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">5</characteristic>
@@ -2139,8 +2139,8 @@ Reach (3)</characteristic>
         <profile name="Keratosor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="b012-7524-c10f-a880">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">4</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">4</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -2196,8 +2196,8 @@ Natural</characteristic>
         <profile name="Wishbone" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="a770-1444-5d99-cc1b">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -2251,8 +2251,8 @@ Deviate (2)</characteristic>
         <profile name="Grayze" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="7afc-8b7c-de7b-49b7">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -2309,8 +2309,8 @@ Reach (1)</characteristic>
         <profile name="Kalhana" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="f555-34f8-d540-e3f1">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">58</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">58</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -2363,8 +2363,8 @@ Reach (1)</characteristic>
         <profile name="Bluewing" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="9106-73c0-e7aa-4cbd">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -2414,8 +2414,8 @@ Reach (1)</characteristic>
         <profile name="Aronax" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c7f2-53a1-82ce-d7f3">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -2471,8 +2471,8 @@ Reach (1)</characteristic>
         <profile name="Ryuza" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="3a38-a2c6-da20-e679">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -2524,8 +2524,8 @@ Reach (1)</characteristic>
         <profile name="Wishbone" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="822c-4377-55af-84ad">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -2584,8 +2584,8 @@ Deviate (2)</characteristic>
         <profile name="Jay" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="2bb3-698a-607d-815c">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -2643,8 +2643,8 @@ Sunder (1)</characteristic>
         <profile name="Dahu" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="8a40-a733-7d70-e768">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -2711,8 +2711,8 @@ Venom (1)</characteristic>
         <profile name="Dahu" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="906c-971c-ff51-9812">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -2786,8 +2786,8 @@ Natural</characteristic>
         <profile name="Mach" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="69c6-8afb-8c20-a49b">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -2836,8 +2836,8 @@ Natural</characteristic>
         <profile name="Noalla" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="220c-fdba-d6b0-ff14">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -2899,8 +2899,8 @@ Natural</characteristic>
         <profile name="Jibb" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="247f-dfe5-377a-eeac">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">4</characteristic>
@@ -2954,8 +2954,8 @@ Sunder (3)</characteristic>
         <profile name="Uxhi" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="d2bd-78c7-5a4c-3671">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -3009,8 +3009,8 @@ Sunder (3)</characteristic>
         <profile name="Mattiu" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="743e-4d80-da5b-7706">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -3064,8 +3064,8 @@ Natural</characteristic>
         <profile name="Deck Hands" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="78c1-57a7-3143-ac43">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -3125,8 +3125,8 @@ Natural</characteristic>
         <profile name="Bo&apos;Sun" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="f50c-4044-9ffa-46cb">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -3186,8 +3186,8 @@ Natural</characteristic>
         <profile name="Rhum" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c1ef-d940-60d1-da83">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -3241,8 +3241,8 @@ Natural</characteristic>
         <profile name="Sinoraptor - Corsair" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="4198-06a3-550c-b434">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">-</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">-</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -3296,8 +3296,8 @@ Venom (1)</characteristic>
         <profile name="Limossk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="9171-ea62-c22d-2a32">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -3357,8 +3357,8 @@ Venom (1)</characteristic>
         <profile name="Hakana" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="ea58-c6d0-d0bf-939d">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -3418,8 +3418,8 @@ Venom (1)</characteristic>
         <profile name="Akara" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="162e-2a9b-5d3a-ac96">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">3</characteristic>
@@ -3480,8 +3480,8 @@ Sunder (2)</characteristic>
         <profile name="Akara Mounted" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="67e0-096a-2744-aa4f">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">3</characteristic>
@@ -3535,8 +3535,8 @@ Knockdown</characteristic>
         <profile name="Trike" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="783b-1506-f883-c0e9">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">3</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">3</characteristic>
@@ -3585,8 +3585,8 @@ Knockdown</characteristic>
         <profile name="Nix&apos;s Yuttaraptor" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="ab99-eea8-89f5-d8cd">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -3630,8 +3630,8 @@ Knockdown</characteristic>
         <profile name="Dahu&apos;s Baryonyx" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="990a-3489-ab6c-8bfd">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -3677,8 +3677,8 @@ Natural</characteristic>
         <profile name="Chaak" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="d235-2b2e-7c79-7da1">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -3727,8 +3727,8 @@ Knockdown</characteristic>
         <profile name="Domehead - Bondsmen" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="cb73-f895-b4aa-ba77">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">-</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">-</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -3794,8 +3794,8 @@ Knockdown</characteristic>
         <profile name="Gersla" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="12fb-5f12-7e12-c28c">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -3850,8 +3850,8 @@ Template (Teardrop)</characteristic>
         <profile name="Fancagne" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="556d-61ad-1e3c-05ce">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -3906,8 +3906,8 @@ Sunder (1)</characteristic>
         <profile name="Alaya" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="3446-f243-95b5-aba8">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -3960,8 +3960,8 @@ Sunder (1)</characteristic>
         <profile name="Jorra" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="e8de-9e80-8374-1628">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -4016,8 +4016,8 @@ Tempalte (Large)</characteristic>
         <profile name="Ravanna" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="0ed8-ddc5-8d46-b99b">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -4069,8 +4069,8 @@ Finite</characteristic>
         <profile name="Shanatt" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="62f9-95f0-15d6-b364">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -4114,8 +4114,8 @@ Finite</characteristic>
         <profile name="Shield" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c781-b001-bfeb-5c02">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4167,8 +4167,8 @@ Finite</characteristic>
         <profile name="Choker" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="58c0-7a19-2144-b747">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -4229,8 +4229,8 @@ Finite</characteristic>
         <profile name="Forek" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="7b42-9e88-ab48-d1d1">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4294,8 +4294,8 @@ Finite</characteristic>
         <profile name="Forek Mounted" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="3a33-c3c8-74da-0a3f">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">5</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">5</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">2</characteristic>
@@ -4362,8 +4362,8 @@ Pierce (2)</characteristic>
         <profile name="Foreks&apos;s Mount" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="78e0-7b7c-204e-a0a0">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">-</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">-</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">-</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">-</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">0</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">7</characteristic>
@@ -4399,8 +4399,8 @@ Pierce (2)</characteristic>
         <profile name="Mara" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="cdcc-d503-1e09-807a">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4460,8 +4460,8 @@ Spray</characteristic>
         <profile name="Hove" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="f332-c4c6-c2e8-6986">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4514,8 +4514,8 @@ Spray</characteristic>
         <profile name="Ranelle" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c598-93f5-5c89-10b7">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4569,8 +4569,8 @@ Spray</characteristic>
         <profile name="Juchita" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="b8cc-520d-2d2a-919c">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4620,8 +4620,8 @@ Spray</characteristic>
         <profile name="Kraytssk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="f487-334f-b895-6004">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4677,8 +4677,8 @@ Spray</characteristic>
         <profile name="Kalen" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="93da-7f4b-f559-3163">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4733,8 +4733,8 @@ Slow(2/3)</characteristic>
         <profile name="Sumissk&apos;o" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="76bf-a954-efc5-9681">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4788,8 +4788,8 @@ Slow (1/2)</characteristic>
         <profile name="Hawk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="5633-7518-620f-361c">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -4841,8 +4841,8 @@ Slow (1/2)</characteristic>
         <profile name="Grunt" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="889f-4764-c289-3108">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4901,8 +4901,8 @@ Slow (1/2)</characteristic>
         <profile name="Sniper" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="aaf2-635b-1dc7-d8ef">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -4962,8 +4962,8 @@ Pierce (!)</characteristic>
         <profile name="Jalai" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="97ab-9130-723b-f5d9">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5017,8 +5017,8 @@ Pierce (!)</characteristic>
         <profile name="Dilophosor - Militia" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="5d68-d4ad-1970-448a">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -5080,8 +5080,8 @@ Natural</characteristic>
         <profile name="Tanto" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="b950-ef97-fe42-f987">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5134,8 +5134,8 @@ Natural</characteristic>
         <profile name="Oviraptor - Firm" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="e810-0bdb-200a-bf0f">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">-</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">7</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">-</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">7</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5183,8 +5183,8 @@ Natural</characteristic>
         <profile name="Kenada" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="07ee-9486-97b5-7257">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">4</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5251,8 +5251,8 @@ Natural</characteristic>
         <profile name="Kaneda Mounted" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="8385-ea09-9a1f-1693">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -5322,8 +5322,8 @@ Reach (2)</characteristic>
         <profile name="Mantis" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="0f69-a1ed-8166-5089">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">-</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">-</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">3</characteristic>
@@ -5369,8 +5369,8 @@ Reach (2)</characteristic>
         <profile name="Kassel" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="af7c-c6d6-0aee-71be">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">5</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5431,8 +5431,8 @@ Stun (1)</characteristic>
         <profile name="Lissz" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="1421-43d3-804d-5522">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5486,8 +5486,8 @@ Pierce (1)</characteristic>
         <profile name="Hosk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="a765-4d4f-f5aa-14c2">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">5</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -5542,8 +5542,8 @@ Pierce (1)</characteristic>
         <profile name="Venk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="a0dc-df66-ddd7-00c3">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -5597,8 +5597,8 @@ Pierce (1)</characteristic>
         <profile name="Mirja" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="7634-a6fe-7a89-cec3">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">7</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">7</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5652,8 +5652,8 @@ Template (Teardrop)</characteristic>
         <profile name="Lakassk" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="6f56-4892-2349-3daf">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">7</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5708,8 +5708,8 @@ Deviate (1)</characteristic>
         <profile name="Makko" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="8858-b17a-a412-1b28">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">7</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">5</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5768,8 +5768,8 @@ Knockdown</characteristic>
         <profile name="Kyoshi" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="7308-8bfb-6307-b4dc">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">5</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5823,8 +5823,8 @@ Pierce (1)</characteristic>
         <profile name="Bez" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="042c-df88-98a7-8f8e">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">6</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -5877,8 +5877,8 @@ Deviate (3)</characteristic>
         <profile name="Thug" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="c280-62cb-cc33-922f">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">1</characteristic>
@@ -5937,8 +5937,8 @@ Deviate (3)</characteristic>
         <profile name="Pyro" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="8f1f-a479-3f4c-dc28">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">6</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">5</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">5</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">3</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">0</characteristic>
@@ -5999,8 +5999,8 @@ Flame (2)</characteristic>
         <profile name="Crash" typeId="Attributes" typeName="1.2 Attributes" hidden="false" id="9ca0-b0f7-4119-92ac">
           <characteristics>
             <characteristic name="Closed Combat" typeId="e5fe-4c56-5cb2-327a">3</characteristic>
-            <characteristic name="Marksmanship" typeId="049c-fb7d-85c4-944c">6</characteristic>
-            <characteristic name="Agility" typeId="7d44-682a-1f07-9660">6</characteristic>
+            <characteristic name="Agility" typeId="049c-fb7d-85c4-944c">6</characteristic>
+            <characteristic name="Marksmanship" typeId="7d44-682a-1f07-9660">6</characteristic>
             <characteristic name="Inteligence" typeId="ccc1-32b6-5489-8e08">4</characteristic>
             <characteristic name="Thougness" typeId="6454-547e-a032-0594">2</characteristic>
             <characteristic name="Armor" typeId="ffb5-9d6f-6af3-fac0">3</characteristic>
